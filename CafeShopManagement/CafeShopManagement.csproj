@@ -27,12 +27,4 @@
     </EmbeddedResource>
   </ItemGroup>
 
-  <ItemGroup>
-    <EditorConfigFiles Remove="E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\.editorconfig" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\.editorconfig" />
-  </ItemGroup>
-
 </Project>
