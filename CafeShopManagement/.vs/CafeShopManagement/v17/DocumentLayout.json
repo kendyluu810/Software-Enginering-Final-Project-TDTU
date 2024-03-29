@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{356B41F2-D21E-4DCA-AA05-538F5150E85A}|CafeShopManagement.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{356B41F2-D21E-4DCA-AA05-538F5150E85A}|CafeShopManagement.csproj|d:\\github\\software-enginering-final-project-tdtu\\cafeshopmanagement\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{356B41F2-D21E-4DCA-AA05-538F5150E85A}|CafeShopManagement.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{356B41F2-D21E-4DCA-AA05-538F5150E85A}|CafeShopManagement.csproj|d:\\github\\software-enginering-final-project-tdtu\\cafeshopmanagement\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{356B41F2-D21E-4DCA-AA05-538F5150E85A}|CafeShopManagement.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B41F2-D21E-4DCA-AA05-538F5150E85A}|CafeShopManagement.csproj|d:\\github\\software-enginering-final-project-tdtu\\cafeshopmanagement\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356B41F2-D21E-4DCA-AA05-538F5150E85A}|CafeShopManagement.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B41F2-D21E-4DCA-AA05-538F5150E85A}|CafeShopManagement.csproj|d:\\github\\software-enginering-final-project-tdtu\\cafeshopmanagement\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{356B41F2-D21E-4DCA-AA05-538F5150E85A}|CafeShopManagement.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B41F2-D21E-4DCA-AA05-538F5150E85A}|CafeShopManagement.csproj|d:\\github\\software-enginering-final-project-tdtu\\cafeshopmanagement\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{356B41F2-D21E-4DCA-AA05-538F5150E85A}|CafeShopManagement.csproj|solutionrelative:registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{356B41F2-D21E-4DCA-AA05-538F5150E85A}|CafeShopManagement.csproj|d:\\github\\software-enginering-final-project-tdtu\\cafeshopmanagement\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -26,11 +34,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Github\\Software-Enginering-Final-Project-TDTU\\CafeShopManagement\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "D:\\Github\\Software-Enginering-Final-Project-TDTU\\CafeShopManagement\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T12:42:05.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Software-Enginering-Final-Project-TDTU\\CafeShopManagement\\Dashboard.cs",
+              "RelativeDocumentMoniker": "Dashboard.cs",
+              "ToolTip": "D:\\Github\\Software-Enginering-Final-Project-TDTU\\CafeShopManagement\\Dashboard.cs [Design]",
+              "RelativeToolTip": "Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T12:41:11.185Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "RegisterForm.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Software-Enginering-Final-Project-TDTU\\CafeShopManagement\\RegisterForm.cs",
               "RelativeDocumentMoniker": "RegisterForm.cs",
@@ -54,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Software-Enginering-Final-Project-TDTU\\CafeShopManagement\\LoginForm.cs",
               "RelativeDocumentMoniker": "LoginForm.cs",
@@ -66,13 +99,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "RegisterForm.cs",
               "DocumentMoniker": "D:\\Github\\Software-Enginering-Final-Project-TDTU\\CafeShopManagement\\RegisterForm.cs",
               "RelativeDocumentMoniker": "RegisterForm.cs",
               "ToolTip": "D:\\Github\\Software-Enginering-Final-Project-TDTU\\CafeShopManagement\\RegisterForm.cs",
               "RelativeToolTip": "RegisterForm.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAQwEMAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-29T07:29:44.218Z",
               "EditorCaption": ""

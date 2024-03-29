@@ -27,7 +27,6 @@ E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bi
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.csproj.CopyComplete
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\CafeShopManagement.dll.config
 D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\CafeShopManagement.exe
-D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\CafeShopManagement.dll.config
 D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\CafeShopManagement.deps.json
 D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\CafeShopManagement.runtimeconfig.json
 D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\CafeShopManagement.dll
@@ -55,3 +54,4 @@ D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\ne
 D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.genruntimeconfig.cache
 D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\ref\CafeShopManagement.dll
 D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.MainForm.resources
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.Dashboard.resources

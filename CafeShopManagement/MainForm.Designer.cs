@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            panel2 = new Panel();
-            pictureBox1 = new PictureBox();
-            btnExit = new Label();
             label1 = new Label();
-            lbAP = new Label();
-            lbUser = new Label();
-            tbUser = new Label();
-            btnDashboard = new Button();
-            btnCashier = new Button();
-            btnProducts = new Button();
-            btnEmployee = new Button();
+            btnExit = new Label();
+            panel2 = new Panel();
             btnLogout = new Button();
+            btnEmployee = new Button();
+            btnProducts = new Button();
+            btnCashier = new Button();
+            btnDashboard = new Button();
+            tbUser = new Label();
+            lbUser = new Label();
+            lbAP = new Label();
+            pictureBox1 = new PictureBox();
             panel3 = new Panel();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -57,6 +57,27 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1440, 50);
             panel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(30, 16);
+            label1.Name = "label1";
+            label1.Size = new Size(319, 18);
+            label1.TabIndex = 3;
+            label1.Text = "The Coffee House Management System";
+            // 
+            // btnExit
+            // 
+            btnExit.AutoSize = true;
+            btnExit.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnExit.Location = new Point(1410, 19);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new Size(18, 18);
+            btnExit.TabIndex = 2;
+            btnExit.Text = "X";
+            btnExit.Click += btnExit_Click;
             // 
             // panel2
             // 
@@ -76,101 +97,17 @@
             panel2.Size = new Size(250, 730);
             panel2.TabIndex = 1;
             // 
-            // pictureBox1
+            // btnLogout
             // 
-            pictureBox1.Image = Properties.Resources.Icon_the_coffee_house;
-            pictureBox1.Location = new Point(65, 35);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(120, 120);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 11;
-            pictureBox1.TabStop = false;
-            // 
-            // btnExit
-            // 
-            btnExit.AutoSize = true;
-            btnExit.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnExit.Location = new Point(1410, 19);
-            btnExit.Name = "btnExit";
-            btnExit.Size = new Size(18, 18);
-            btnExit.TabIndex = 2;
-            btnExit.Text = "X";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(30, 16);
-            label1.Name = "label1";
-            label1.Size = new Size(319, 18);
-            label1.TabIndex = 3;
-            label1.Text = "The Coffee House Management System";
-            // 
-            // lbAP
-            // 
-            lbAP.AutoSize = true;
-            lbAP.Font = new Font("Arial Rounded MT Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbAP.Location = new Point(61, 180);
-            lbAP.Name = "lbAP";
-            lbAP.Size = new Size(129, 22);
-            lbAP.TabIndex = 4;
-            lbAP.Text = "Admin Portal";
-            // 
-            // lbUser
-            // 
-            lbUser.AutoSize = true;
-            lbUser.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbUser.Location = new Point(30, 225);
-            lbUser.Name = "lbUser";
-            lbUser.Size = new Size(95, 18);
-            lbUser.TabIndex = 12;
-            lbUser.Text = "Username:";
-            // 
-            // tbUser
-            // 
-            tbUser.AutoSize = true;
-            tbUser.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            tbUser.Location = new Point(136, 226);
-            tbUser.Name = "tbUser";
-            tbUser.Size = new Size(54, 17);
-            tbUser.TabIndex = 13;
-            tbUser.Text = "Admin";
-            // 
-            // btnDashboard
-            // 
-            btnDashboard.FlatStyle = FlatStyle.Flat;
-            btnDashboard.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnDashboard.ForeColor = Color.White;
-            btnDashboard.Location = new Point(25, 265);
-            btnDashboard.Name = "btnDashboard";
-            btnDashboard.Size = new Size(200, 40);
-            btnDashboard.TabIndex = 14;
-            btnDashboard.Text = "Dashboard";
-            btnDashboard.UseVisualStyleBackColor = true;
-            // 
-            // btnCashier
-            // 
-            btnCashier.FlatStyle = FlatStyle.Flat;
-            btnCashier.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCashier.ForeColor = Color.White;
-            btnCashier.Location = new Point(25, 325);
-            btnCashier.Name = "btnCashier";
-            btnCashier.Size = new Size(200, 40);
-            btnCashier.TabIndex = 15;
-            btnCashier.Text = "Add Cashier";
-            btnCashier.UseVisualStyleBackColor = true;
-            // 
-            // btnProducts
-            // 
-            btnProducts.FlatStyle = FlatStyle.Flat;
-            btnProducts.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnProducts.ForeColor = Color.White;
-            btnProducts.Location = new Point(25, 385);
-            btnProducts.Name = "btnProducts";
-            btnProducts.Size = new Size(200, 40);
-            btnProducts.TabIndex = 16;
-            btnProducts.Text = "Add Products";
-            btnProducts.UseVisualStyleBackColor = true;
+            btnLogout.FlatStyle = FlatStyle.Flat;
+            btnLogout.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnLogout.ForeColor = Color.White;
+            btnLogout.Location = new Point(25, 664);
+            btnLogout.Name = "btnLogout";
+            btnLogout.Size = new Size(200, 40);
+            btnLogout.TabIndex = 18;
+            btnLogout.Text = "Logout";
+            btnLogout.UseVisualStyleBackColor = true;
             // 
             // btnEmployee
             // 
@@ -184,17 +121,81 @@
             btnEmployee.Text = "Employee";
             btnEmployee.UseVisualStyleBackColor = true;
             // 
-            // btnLogout
+            // btnProducts
             // 
-            btnLogout.FlatStyle = FlatStyle.Flat;
-            btnLogout.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnLogout.ForeColor = Color.White;
-            btnLogout.Location = new Point(25, 664);
-            btnLogout.Name = "btnLogout";
-            btnLogout.Size = new Size(200, 40);
-            btnLogout.TabIndex = 18;
-            btnLogout.Text = "Logout";
-            btnLogout.UseVisualStyleBackColor = true;
+            btnProducts.FlatStyle = FlatStyle.Flat;
+            btnProducts.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnProducts.ForeColor = Color.White;
+            btnProducts.Location = new Point(25, 385);
+            btnProducts.Name = "btnProducts";
+            btnProducts.Size = new Size(200, 40);
+            btnProducts.TabIndex = 16;
+            btnProducts.Text = "Add Products";
+            btnProducts.UseVisualStyleBackColor = true;
+            // 
+            // btnCashier
+            // 
+            btnCashier.FlatStyle = FlatStyle.Flat;
+            btnCashier.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnCashier.ForeColor = Color.White;
+            btnCashier.Location = new Point(25, 325);
+            btnCashier.Name = "btnCashier";
+            btnCashier.Size = new Size(200, 40);
+            btnCashier.TabIndex = 15;
+            btnCashier.Text = "Add Cashier";
+            btnCashier.UseVisualStyleBackColor = true;
+            // 
+            // btnDashboard
+            // 
+            btnDashboard.FlatStyle = FlatStyle.Flat;
+            btnDashboard.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnDashboard.ForeColor = Color.White;
+            btnDashboard.Location = new Point(25, 265);
+            btnDashboard.Name = "btnDashboard";
+            btnDashboard.Size = new Size(200, 40);
+            btnDashboard.TabIndex = 14;
+            btnDashboard.Text = "Dashboard";
+            btnDashboard.UseVisualStyleBackColor = true;
+            // 
+            // tbUser
+            // 
+            tbUser.AutoSize = true;
+            tbUser.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            tbUser.Location = new Point(136, 226);
+            tbUser.Name = "tbUser";
+            tbUser.Size = new Size(54, 17);
+            tbUser.TabIndex = 13;
+            tbUser.Text = "Admin";
+            // 
+            // lbUser
+            // 
+            lbUser.AutoSize = true;
+            lbUser.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbUser.Location = new Point(30, 225);
+            lbUser.Name = "lbUser";
+            lbUser.Size = new Size(95, 18);
+            lbUser.TabIndex = 12;
+            lbUser.Text = "Username:";
+            // 
+            // lbAP
+            // 
+            lbAP.AutoSize = true;
+            lbAP.Font = new Font("Arial Rounded MT Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbAP.Location = new Point(61, 180);
+            lbAP.Name = "lbAP";
+            lbAP.Size = new Size(129, 22);
+            lbAP.TabIndex = 4;
+            lbAP.Text = "Admin Portal";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.Icon_the_coffee_house;
+            pictureBox1.Location = new Point(65, 35);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(120, 120);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 11;
+            pictureBox1.TabStop = false;
             // 
             // panel3
             // 

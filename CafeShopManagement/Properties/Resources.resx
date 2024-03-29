@@ -121,4 +121,16 @@
   <data name="Icon the coffee house" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Icon the coffee house.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8_group_90px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\icons8_group_90px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_money_90px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\icons8_money_90px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_Money_Bag_Bitcoin_90px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\icons8_Money_Bag_Bitcoin_90px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_user_filled_90px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\icons8_user_filled_90px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
