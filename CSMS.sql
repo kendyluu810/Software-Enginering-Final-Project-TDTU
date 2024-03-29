@@ -10,7 +10,9 @@ CREATE TABLE users (
     profile_image NVARCHAR(MAX) NULL,
     date_reg DATE NULL
 );
+Select * from users
 
+INSERT INTO users (username,password,role,status,profile_image,date_reg) VALUES ('admin','Admin@123','Admin','Active','','2024-02-02')
 
 CREATE TABLE products (
     id INT PRIMARY KEY,
@@ -25,8 +27,6 @@ CREATE TABLE products (
     date_update NVARCHAR(50),
     date_delete NVARCHAR(50)
 );
-
-
 
 CREATE TABLE customers (
     customer_id INT PRIMARY KEY,

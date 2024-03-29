@@ -26,3 +26,31 @@ E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bi
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.csproj.CopyComplete
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\CafeShopManagement.dll.config
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\CafeShopManagement.exe
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\CafeShopManagement.dll.config
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\CafeShopManagement.deps.json
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\CafeShopManagement.runtimeconfig.json
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\CafeShopManagement.dll
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\CafeShopManagement.pdb
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.csproj.AssemblyReference.cache
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.LoginForm.resources
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.Properties.Resources.resources
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.RegisterForm.resources
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.csproj.GenerateResource.cache
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.AssemblyInfoInputs.cache
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.AssemblyInfo.cs
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.csproj.CoreCompileInputs.cache
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.sourcelink.json
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShop.8987C6CA.Up2Date
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.dll
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\refint\CafeShopManagement.dll
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.pdb
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.genruntimeconfig.cache
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\ref\CafeShopManagement.dll
