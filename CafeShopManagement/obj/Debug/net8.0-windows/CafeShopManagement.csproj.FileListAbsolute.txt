@@ -54,3 +54,4 @@ D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\ne
 D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.pdb
 D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.genruntimeconfig.cache
 D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\ref\CafeShopManagement.dll
+D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.MainForm.resources

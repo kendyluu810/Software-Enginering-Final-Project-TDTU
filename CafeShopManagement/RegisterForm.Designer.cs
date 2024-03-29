@@ -64,11 +64,11 @@
             label4.AutoSize = true;
             label4.Font = new Font("Arial Rounded MT Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(87, 223);
+            label4.Location = new Point(53, 223);
             label4.Name = "label4";
-            label4.Size = new Size(227, 22);
+            label4.Size = new Size(293, 22);
             label4.TabIndex = 9;
-            label4.Text = "Cafe Shop Management";
+            label4.Text = "The Coffee House Management";
             // 
             // pictureBox1
             // 

@@ -71,6 +71,10 @@ namespace CafeShopManagement
                             if (dt.Rows.Count >= 1)
                             {
                                 MessageBox.Show("Login Successful", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                MainForm mainform = new MainForm();
+                                mainform.Show();
+
+                                this.Hide();
                             }
                             else
                             {
