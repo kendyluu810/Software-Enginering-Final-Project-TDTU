@@ -28,11 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel1 = new Panel();
-            label4 = new Label();
-            pictureBox1 = new PictureBox();
-            lbAHA = new Label();
-            btnSignIn = new Button();
             btnRegister = new Button();
             ckbShowPass = new CheckBox();
             tbPass = new TextBox();
@@ -43,74 +38,19 @@
             btnExit = new Label();
             tbCP = new TextBox();
             lbCP = new Label();
+            panel1 = new Panel();
+            btnSignIn = new Button();
+            pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // panel1
-            // 
-            panel1.BackColor = Color.FromArgb(224, 122, 33);
-            panel1.Controls.Add(label4);
-            panel1.Controls.Add(pictureBox1);
-            panel1.Controls.Add(lbAHA);
-            panel1.Controls.Add(btnSignIn);
-            panel1.Location = new Point(-2, -20);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(400, 500);
-            panel1.TabIndex = 9;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Arial Rounded MT Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(53, 223);
-            label4.Name = "label4";
-            label4.Size = new Size(293, 22);
-            label4.TabIndex = 9;
-            label4.Text = "The Coffee House Management";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources.Icon_the_coffee_house;
-            pictureBox1.Location = new Point(140, 80);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(120, 120);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 10;
-            pictureBox1.TabStop = false;
-            // 
-            // lbAHA
-            // 
-            lbAHA.AutoSize = true;
-            lbAHA.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbAHA.ForeColor = Color.White;
-            lbAHA.Location = new Point(121, 403);
-            lbAHA.Name = "lbAHA";
-            lbAHA.Size = new Size(176, 17);
-            lbAHA.TabIndex = 9;
-            lbAHA.Text = "Already have account?";
-            // 
-            // btnSignIn
-            // 
-            btnSignIn.BackColor = Color.FromArgb(224, 122, 33);
-            btnSignIn.FlatStyle = FlatStyle.Flat;
-            btnSignIn.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnSignIn.ForeColor = Color.White;
-            btnSignIn.Location = new Point(84, 433);
-            btnSignIn.Name = "btnSignIn";
-            btnSignIn.Size = new Size(230, 42);
-            btnSignIn.TabIndex = 9;
-            btnSignIn.Text = "Sign In";
-            btnSignIn.UseVisualStyleBackColor = false;
-            btnSignIn.Click += btnSignIn_Click;
-            // 
             // btnRegister
             // 
-            btnRegister.BackColor = Color.FromArgb(224, 122, 33);
+            btnRegister.BackColor = Color.FromArgb(126, 99, 99);
             btnRegister.FlatStyle = FlatStyle.Flat;
             btnRegister.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnRegister.ForeColor = Color.White;
+            btnRegister.ForeColor = Color.FromArgb(242, 239, 229);
             btnRegister.Location = new Point(545, 365);
             btnRegister.Name = "btnRegister";
             btnRegister.Size = new Size(110, 42);
@@ -123,6 +63,7 @@
             // 
             ckbShowPass.AutoSize = true;
             ckbShowPass.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ckbShowPass.ForeColor = Color.FromArgb(126, 99, 99);
             ckbShowPass.Location = new Point(438, 320);
             ckbShowPass.Name = "ckbShowPass";
             ckbShowPass.Size = new Size(143, 21);
@@ -144,6 +85,7 @@
             // 
             lbPass.AutoSize = true;
             lbPass.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbPass.ForeColor = Color.FromArgb(126, 99, 99);
             lbPass.Location = new Point(438, 192);
             lbPass.Name = "lbPass";
             lbPass.Size = new Size(80, 17);
@@ -162,6 +104,7 @@
             // 
             lbUser.AutoSize = true;
             lbUser.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbUser.ForeColor = Color.FromArgb(126, 99, 99);
             lbUser.Location = new Point(438, 131);
             lbUser.Name = "lbUser";
             lbUser.Size = new Size(83, 17);
@@ -172,6 +115,7 @@
             // 
             lbSignUp.AutoSize = true;
             lbSignUp.Font = new Font("Arial Rounded MT Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbSignUp.ForeColor = Color.FromArgb(126, 99, 99);
             lbSignUp.Location = new Point(438, 80);
             lbSignUp.Name = "lbSignUp";
             lbSignUp.Size = new Size(90, 22);
@@ -202,21 +146,56 @@
             // 
             lbCP.AutoSize = true;
             lbCP.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbCP.ForeColor = Color.FromArgb(126, 99, 99);
             lbCP.Location = new Point(438, 253);
             lbCP.Name = "lbCP";
             lbCP.Size = new Size(142, 17);
             lbCP.TabIndex = 18;
             lbCP.Text = "Confirm Password";
             // 
+            // panel1
+            // 
+            panel1.BackColor = Color.FromArgb(126, 99, 99);
+            panel1.Controls.Add(btnSignIn);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(400, 461);
+            panel1.TabIndex = 20;
+            // 
+            // btnSignIn
+            // 
+            btnSignIn.BackColor = Color.FromArgb(242, 239, 229);
+            btnSignIn.FlatStyle = FlatStyle.Flat;
+            btnSignIn.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnSignIn.ForeColor = Color.FromArgb(126, 99, 99);
+            btnSignIn.Location = new Point(145, 396);
+            btnSignIn.Name = "btnSignIn";
+            btnSignIn.Size = new Size(110, 42);
+            btnSignIn.TabIndex = 18;
+            btnSignIn.Text = "Sign In";
+            btnSignIn.UseVisualStyleBackColor = false;
+            btnSignIn.Click += btnSignIn_Click;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Dock = DockStyle.Left;
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(400, 461);
+            pictureBox1.TabIndex = 19;
+            pictureBox1.TabStop = false;
+            // 
             // RegisterForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.White;
+            BackColor = Color.FromArgb(242, 239, 229);
             ClientSize = new Size(784, 461);
+            Controls.Add(panel1);
             Controls.Add(tbCP);
             Controls.Add(lbCP);
-            Controls.Add(panel1);
             Controls.Add(btnRegister);
             Controls.Add(ckbShowPass);
             Controls.Add(tbPass);
@@ -230,20 +209,13 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "RegisterForm";
             panel1.ResumeLayout(false);
-            panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Panel panel1;
-        private Label label4;
         private Label btnExit;
-        private PictureBox pictureBox1;
-        private Label lbAHA;
-        private Button btnSignIn;
         private Label lbUser;
         private Label lbPass;
         private Label lbCP;
@@ -253,5 +225,8 @@
         private CheckBox ckbShowPass;
         private Button btnRegister;
         private Label lbSignUp;
+        private Panel panel1;
+        private Button btnSignIn;
+        private PictureBox pictureBox1;
     }
 }

@@ -13,7 +13,7 @@ namespace CafeShopManagement
 {
     public partial class LoginForm : Form
     {
-        SqlConnection cn = new SqlConnection(@"Data Source=SAMMELUU;Initial Catalog=CSMS;Persist Security Info=True;User ID=sa;Password=Lkendy0911");
+        SqlConnection cn = new SqlConnection(@"Data Source=KENDYL;Initial Catalog=CSMS;Persist Security Info=True;User ID=sa;Password=Lkendy0911");
         public LoginForm()
         {
             InitializeComponent();

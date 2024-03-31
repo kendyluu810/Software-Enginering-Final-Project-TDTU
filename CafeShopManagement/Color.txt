@@ -1,1 +1,2 @@
-224, 122, 33 : Orange
+126,99,99: Main color
+242,239,229: background color

@@ -13,8 +13,7 @@ namespace CafeShopManagement
 {
     public partial class RegisterForm : Form
     {
-        //Data Source=KENDYL;Initial Catalog=CSMS;Persist Security Info=True;User ID=sa;Password=Lkendy0911
-        SqlConnection cn = new SqlConnection(@"Data Source=SAMMELUU;Initial Catalog=CSMS;Persist Security Info=True;User ID=sa;Password=Lkendy0911");
+        SqlConnection cn = new SqlConnection(@"Data Source=KENDYL;Initial Catalog=CSMS;Persist Security Info=True;User ID=sa;Password=Lkendy0911");
         public RegisterForm()
         {
             InitializeComponent();
@@ -49,7 +48,7 @@ namespace CafeShopManagement
         {
             if (emptyFields())
             {
-                MessageBox.Show("All fields are required to be filled.","Error Message",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("All fields are required to be filled.", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -73,12 +72,12 @@ namespace CafeShopManagement
 
                             if (dt.Rows.Count >= 1)
                             {
-                                string usern = tbUsername.Text.Substring(0,1).ToUpper() + tbUsername.Text.Substring(1);
-                                MessageBox.Show(usern + "is already taken","Error Message",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                string usern = tbUsername.Text.Substring(0, 1).ToUpper() + tbUsername.Text.Substring(1);
+                                MessageBox.Show(usern + "is already taken", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             }
                             else if (tbPass.Text != tbCP.Text)
                             {
-                                MessageBox.Show("Password doesn't match","Error Message",MessageBoxButtons.OK, MessageBoxIcon.Error );
+                                MessageBox.Show("Password doesn't match", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             }
                             else if (tbPass.Text.Length < 8)
                             {
@@ -86,17 +85,17 @@ namespace CafeShopManagement
                             }
                             else
                             {
-                                string insertData = "INSERT INTO users (username,password,profile_image,role,status,date_reg)"+
+                                string insertData = "INSERT INTO users (username,password,profile_image,role,status,date_reg)" +
                                     " VALUES(@username,@pass,@image,@role,@status,@date)";
                                 DateTime today = DateTime.Today;
                                 using (SqlCommand cm = new SqlCommand(insertData, cn))
                                 {
-                                    cm.Parameters.AddWithValue("@username",tbUsername.Text.Trim());
-                                    cm.Parameters.AddWithValue("@pass",tbPass.Text.Trim());
-                                    cm.Parameters.AddWithValue("@image","");
-                                    cm.Parameters.AddWithValue("@role","Cashier");
-                                    cm.Parameters.AddWithValue("@status","Approval");
-                                    cm.Parameters.AddWithValue("@date",today);
+                                    cm.Parameters.AddWithValue("@username", tbUsername.Text.Trim());
+                                    cm.Parameters.AddWithValue("@pass", tbPass.Text.Trim());
+                                    cm.Parameters.AddWithValue("@image", "");
+                                    cm.Parameters.AddWithValue("@role", "Cashier");
+                                    cm.Parameters.AddWithValue("@status", "Approval");
+                                    cm.Parameters.AddWithValue("@date", today);
 
                                     cm.ExecuteNonQuery();
 
@@ -105,9 +104,10 @@ namespace CafeShopManagement
 
                             }
                         }
-                    } catch (Exception ex)
+                    }
+                    catch (Exception ex)
                     {
-                        MessageBox.Show("Connection failed"+ ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Connection failed" + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     finally { cn.Close(); }
                 }
