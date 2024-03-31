@@ -56,3 +56,4 @@ D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\ne
 D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.Dashboard.resources
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.Dashboard.resources
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.MainForm.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.AddUser.resources

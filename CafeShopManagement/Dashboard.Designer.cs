@@ -67,15 +67,17 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(710, 710);
+            panel1.Size = new Size(720, 710);
             panel1.TabIndex = 0;
             // 
             // pictureBox1
             // 
             pictureBox1.Dock = DockStyle.Left;
+            pictureBox1.Image = Properties.Resources.AUBERT;
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(720, 710);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
