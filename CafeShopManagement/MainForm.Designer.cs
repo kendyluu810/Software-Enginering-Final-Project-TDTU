@@ -39,8 +39,10 @@
             pictureBox1 = new PictureBox();
             btnExit = new Label();
             panel2 = new Panel();
+            addUser1 = new AdminAddUsers();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -82,6 +84,7 @@
             btnLogout.TabIndex = 4;
             btnLogout.Text = "Logout";
             btnLogout.UseVisualStyleBackColor = true;
+            btnLogout.Click += btnLogout_Click;
             // 
             // btnProducts
             // 
@@ -160,11 +163,19 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(242, 239, 229);
+            panel2.Controls.Add(addUser1);
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 70);
             panel2.Name = "panel2";
             panel2.Size = new Size(1440, 710);
             panel2.TabIndex = 1;
+            // 
+            // addUser1
+            // 
+            addUser1.Location = new Point(0, 0);
+            addUser1.Name = "addUser1";
+            addUser1.Size = new Size(1440, 710);
+            addUser1.TabIndex = 0;
             // 
             // MainForm
             // 
@@ -180,6 +191,7 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -196,5 +208,6 @@
         private Button btnProducts;
         private Button btnCashier;
         private Button btnDashboard;
+        private AdminAddUsers addUser1;
     }
 }

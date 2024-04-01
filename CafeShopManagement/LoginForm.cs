@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
@@ -13,7 +14,8 @@ namespace CafeShopManagement
 {
     public partial class LoginForm : Form
     {
-        SqlConnection cn = new SqlConnection(@"Data Source=KENDYL;Initial Catalog=CSMS;Persist Security Info=True;User ID=sa;Password=Lkendy0911");
+        static string conn = ConfigurationManager.ConnectionStrings["connectData"].ConnectionString;
+        SqlConnection cn = new SqlConnection(conn);
         public LoginForm()
         {
             InitializeComponent();
