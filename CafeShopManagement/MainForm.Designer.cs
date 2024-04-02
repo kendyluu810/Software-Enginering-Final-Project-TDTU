@@ -39,7 +39,7 @@
             pictureBox1 = new PictureBox();
             btnExit = new Label();
             panel2 = new Panel();
-            addUser1 = new AdminAddUsers();
+            adminAddUsers1 = new AdminAddUsers();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
@@ -67,6 +67,7 @@
             // 
             btnCustomer.FlatStyle = FlatStyle.Flat;
             btnCustomer.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnCustomer.ForeColor = Color.FromArgb(126, 99, 99);
             btnCustomer.Location = new Point(802, 16);
             btnCustomer.Name = "btnCustomer";
             btnCustomer.Size = new Size(129, 38);
@@ -78,6 +79,7 @@
             // 
             btnLogout.FlatStyle = FlatStyle.Flat;
             btnLogout.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnLogout.ForeColor = Color.FromArgb(126, 99, 99);
             btnLogout.Location = new Point(1015, 16);
             btnLogout.Name = "btnLogout";
             btnLogout.Size = new Size(129, 38);
@@ -90,6 +92,7 @@
             // 
             btnProducts.FlatStyle = FlatStyle.Flat;
             btnProducts.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnProducts.ForeColor = Color.FromArgb(126, 99, 99);
             btnProducts.Location = new Point(642, 16);
             btnProducts.Name = "btnProducts";
             btnProducts.Size = new Size(129, 38);
@@ -101,6 +104,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.FromArgb(126, 99, 99);
             label2.Location = new Point(1289, 27);
             label2.Name = "label2";
             label2.Size = new Size(54, 17);
@@ -111,6 +115,7 @@
             // 
             btnCashier.FlatStyle = FlatStyle.Flat;
             btnCashier.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnCashier.ForeColor = Color.FromArgb(126, 99, 99);
             btnCashier.Location = new Point(482, 16);
             btnCashier.Name = "btnCashier";
             btnCashier.Size = new Size(129, 38);
@@ -122,6 +127,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.FromArgb(126, 99, 99);
             label1.Location = new Point(1188, 26);
             label1.Name = "label1";
             label1.Size = new Size(86, 18);
@@ -132,6 +138,7 @@
             // 
             btnDashboard.FlatStyle = FlatStyle.Flat;
             btnDashboard.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnDashboard.ForeColor = Color.FromArgb(126, 99, 99);
             btnDashboard.Location = new Point(322, 16);
             btnDashboard.Name = "btnDashboard";
             btnDashboard.Size = new Size(129, 38);
@@ -163,19 +170,21 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(242, 239, 229);
-            panel2.Controls.Add(addUser1);
+            panel2.Controls.Add(adminAddUsers1);
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 70);
             panel2.Name = "panel2";
             panel2.Size = new Size(1440, 710);
             panel2.TabIndex = 1;
             // 
-            // addUser1
+            // adminAddUsers1
             // 
-            addUser1.Location = new Point(0, 0);
-            addUser1.Name = "addUser1";
-            addUser1.Size = new Size(1440, 710);
-            addUser1.TabIndex = 0;
+            adminAddUsers1.BackColor = Color.FromArgb(242, 239, 229);
+            adminAddUsers1.Dock = DockStyle.Fill;
+            adminAddUsers1.Location = new Point(0, 0);
+            adminAddUsers1.Name = "adminAddUsers1";
+            adminAddUsers1.Size = new Size(1440, 710);
+            adminAddUsers1.TabIndex = 0;
             // 
             // MainForm
             // 
@@ -208,6 +217,6 @@
         private Button btnProducts;
         private Button btnCashier;
         private Button btnDashboard;
-        private AdminAddUsers addUser1;
+        private AdminAddUsers adminAddUsers1;
     }
 }
