@@ -12,7 +12,10 @@ CREATE TABLE users (
 );
 Select * from users
 
+drop table users
+
 INSERT INTO users (username,password,role,status,profile_image,date_reg) VALUES ('admin','Admin@123','Admin','Active','','2024-02-02')
+
 
 CREATE TABLE products (
     id INT PRIMARY KEY IDENTITY(1,1),
