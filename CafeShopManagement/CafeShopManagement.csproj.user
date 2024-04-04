@@ -4,6 +4,9 @@
     <Compile Update="AdminAddUsers.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="AdminProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Dashboard.cs">
       <SubType>UserControl</SubType>
     </Compile>

@@ -58,3 +58,4 @@ E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\ob
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.genruntimeconfig.cache
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\ref\CafeShopManagement.dll
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.AdminAddUsers.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.AdminProduct.resources

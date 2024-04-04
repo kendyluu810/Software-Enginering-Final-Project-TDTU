@@ -39,7 +39,7 @@
             pictureBox1 = new PictureBox();
             btnExit = new Label();
             panel2 = new Panel();
-            adminAddUsers1 = new AdminAddUsers();
+            adminProduct2 = new AdminProduct();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
@@ -170,21 +170,19 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(242, 239, 229);
-            panel2.Controls.Add(adminAddUsers1);
+            panel2.Controls.Add(adminProduct2);
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 70);
             panel2.Name = "panel2";
             panel2.Size = new Size(1440, 710);
             panel2.TabIndex = 1;
             // 
-            // adminAddUsers1
+            // adminProduct2
             // 
-            adminAddUsers1.BackColor = Color.FromArgb(242, 239, 229);
-            adminAddUsers1.Dock = DockStyle.Fill;
-            adminAddUsers1.Location = new Point(0, 0);
-            adminAddUsers1.Name = "adminAddUsers1";
-            adminAddUsers1.Size = new Size(1440, 710);
-            adminAddUsers1.TabIndex = 0;
+            adminProduct2.Location = new Point(0, 0);
+            adminProduct2.Name = "adminProduct2";
+            adminProduct2.Size = new Size(1440, 710);
+            adminProduct2.TabIndex = 0;
             // 
             // MainForm
             // 
@@ -218,5 +216,7 @@
         private Button btnCashier;
         private Button btnDashboard;
         private AdminAddUsers adminAddUsers1;
+        private AdminProduct adminProduct1;
+        private AdminProduct adminProduct2;
     }
 }

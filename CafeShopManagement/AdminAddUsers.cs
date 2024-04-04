@@ -269,41 +269,37 @@ namespace CafeShopManagement
         {
             try
             {
-                // Open file dialog to choose save location
-                SaveFileDialog saveFileDialog = new SaveFileDialog();
-                saveFileDialog.Filter = "CSV files (*.csv)|*.csv";
-                saveFileDialog.FilterIndex = 0;
-                saveFileDialog.RestoreDirectory = true;
+                // Create a StringBuilder to hold the CSV data
+                var csvData = new List<string>();
 
-                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                // Add header row
+                var headerRow = new List<string>();
+                foreach (DataGridViewColumn column in dataGridView1.Columns)
                 {
-                    // Get the file path chosen by the user
-                    string filePath = saveFileDialog.FileName;
-
-                    // Write data to the CSV file
-                    using (StreamWriter writer = new StreamWriter(filePath))
-                    {
-                        // Write header row
-                        writer.WriteLine("Username,Password,Role,Status");
-
-                        // Write data rows
-                        foreach (DataGridViewRow row in dataGridView1.Rows)
-                        {
-                            string username = row.Cells[1].Value.ToString();
-                            string password = row.Cells[2].Value.ToString();
-                            string role = row.Cells[3].Value.ToString();
-                            string status = row.Cells[4].Value.ToString();
-
-                            writer.WriteLine($"{username},{password},{role},{status}");
-                        }
-
-                        MessageBox.Show("Data exported successfully!", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
+                    headerRow.Add(column.HeaderText);
                 }
+                csvData.Add(string.Join(",", headerRow));
+
+                // Add data rows
+                foreach (DataGridViewRow row in dataGridView1.Rows)
+                {
+                    var dataRow = new List<string>();
+                    foreach (DataGridViewCell cell in row.Cells)
+                    {
+                        dataRow.Add(cell.Value.ToString());
+                    }
+                    csvData.Add(string.Join(",", dataRow));
+                }
+
+                // Write CSV data to file
+                string filePath = "user_data.csv"; // Change the file path as needed
+                File.WriteAllLines(filePath, csvData);
+
+                MessageBox.Show("Data exported to CSV successfully!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error exporting data: " + ex.Message, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Failed to export data to CSV: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

@@ -10,7 +10,7 @@ CREATE TABLE users (
     profile_image NVARCHAR(MAX) NULL,
     date_reg DATE NULL
 );
-Select * from users
+Select * from products
 
 drop table products
 
@@ -30,6 +30,9 @@ CREATE TABLE products (
     date_insert DATE NULL,
     date_delete DATE NULL
 );
+
+SELECT * FROM products WHERE id = 2
+
 
 CREATE TABLE customers (
     customer_id INT PRIMARY KEY,
