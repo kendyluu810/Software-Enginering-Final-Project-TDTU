@@ -12,17 +12,16 @@ using System.Windows.Forms;
 
 namespace CafeShopManagement
 {
-    public partial class AdminProduct : UserControl
+    public partial class AdminAddProducts : Form
     {
         static string conn = ConfigurationManager.ConnectionStrings["connectData"].ConnectionString;
         SqlConnection cn = new SqlConnection(conn);
 
-        public AdminProduct()
+        public AdminAddProducts()
         {
             InitializeComponent();
             displayData();
         }
-
         public void displayData()
         {
             AdminAddProductsData prodData = new AdminAddProductsData();
@@ -36,6 +35,50 @@ namespace CafeShopManagement
             if (tbPID.Text == "" || tbPName.Text == "" || cbType.SelectedIndex == -1 || tbStock.Text == "" || tbPrice.Text == "" || cbStatus.SelectedIndex == -1) return true;
             return false;
         }
+
+        public void clearFields()
+        {
+            tbPID.Text = "";
+            tbPName.Text = "";
+            cbType.SelectedIndex = -1;
+            tbStock.Text = "";
+            tbPrice.Text = "";
+            cbStatus.SelectedIndex = -1;
+            AdminAddProduct_ImageView.Image = null;
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex != -1)
+            {
+                DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+                tbPID.Text = row.Cells[1].Value.ToString();
+                tbPName.Text = row.Cells[2].Value.ToString();
+                cbType.Text = row.Cells[3].Value.ToString();
+                tbStock.Text = row.Cells[4].Value.ToString();
+                tbPrice.Text = row.Cells[5].Value.ToString();
+                cbStatus.Text = row.Cells[6].Value.ToString();
+
+                string imagePath = row.Cells[7].Value.ToString();
+
+                try
+                {
+                    if (imagePath != null)
+                    {
+                        AdminAddProduct_ImageView.Image = Image.FromFile(imagePath);
+                    }
+                    else
+                    {
+                        AdminAddProduct_ImageView.Image = null;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error Image" + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
         private void AdminAddProduct_Addbtn_Click(object sender, EventArgs e)
         {
             if (emptyFields())
@@ -118,71 +161,6 @@ namespace CafeShopManagement
                 }
 
             }
-
-        }
-
-        public void clearFields()
-        {
-            tbPID.Text = "";
-            tbPName.Text = "";
-            cbType.SelectedIndex = -1;
-            tbStock.Text = "";
-            tbPrice.Text = "";
-            cbStatus.SelectedIndex = -1;
-            AdminAddProduct_ImageView.Image = null;
-        }
-
-        private void AdminAddProduct_Uploadbtn_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                OpenFileDialog dialog = new OpenFileDialog();
-                dialog.Filter = "Image Files (*.jpg; *.png)|*.jpg;*.png";
-                string imagePath = "";
-
-
-                if (dialog.ShowDialog() == DialogResult.OK)
-                {
-                    imagePath = dialog.FileName;
-                    AdminAddProduct_ImageView.ImageLocation = imagePath;
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (e.RowIndex != -1)
-            {
-                DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
-                tbPID.Text = row.Cells[1].Value.ToString();
-                tbPName.Text = row.Cells[2].Value.ToString();
-                cbType.Text = row.Cells[3].Value.ToString();
-                tbStock.Text = row.Cells[4].Value.ToString();
-                tbPrice.Text = row.Cells[5].Value.ToString();
-                cbStatus.Text = row.Cells[6].Value.ToString();
-
-                string imagePath = row.Cells[7].Value.ToString();
-
-                try
-                {
-                    if (imagePath != null)
-                    {
-                        AdminAddProduct_ImageView.Image = Image.FromFile(imagePath);
-                    }
-                    else
-                    {
-                        AdminAddProduct_ImageView.Image = null;
-                    }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error Image" + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
         }
 
         private void AdminAddProduct_Updatebtn_Click(object sender, EventArgs e)
@@ -239,11 +217,6 @@ namespace CafeShopManagement
             }
         }
 
-        private void AdminAddProduct_Clearbtn_Click(object sender, EventArgs e)
-        {
-            clearFields();
-        }
-
         private void AdminAddProduct_Deletebtn_Click(object sender, EventArgs e)
         {
             if (emptyFields())
@@ -291,9 +264,35 @@ namespace CafeShopManagement
             }
         }
 
+        private void AdminAddProduct_Clearbtn_Click(object sender, EventArgs e)
+        {
+            clearFields();
+        }
+
         private void AdminAddProduct_Export_Click(object sender, EventArgs e)
         {
             ExportToCSV();
+        }
+
+        private void AdminAddProduct_Uploadbtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OpenFileDialog dialog = new OpenFileDialog();
+                dialog.Filter = "Image Files (*.jpg; *.png)|*.jpg;*.png";
+                string imagePath = "";
+
+
+                if (dialog.ShowDialog() == DialogResult.OK)
+                {
+                    imagePath = dialog.FileName;
+                    AdminAddProduct_ImageView.ImageLocation = imagePath;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void ExportToCSV()

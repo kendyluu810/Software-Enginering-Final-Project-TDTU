@@ -39,10 +39,8 @@
             pictureBox1 = new PictureBox();
             btnExit = new Label();
             panel2 = new Panel();
-            adminProduct2 = new AdminProduct();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -99,6 +97,7 @@
             btnProducts.TabIndex = 2;
             btnProducts.Text = "Add Products";
             btnProducts.UseVisualStyleBackColor = true;
+            btnProducts.Click += btnProducts_Click;
             // 
             // label2
             // 
@@ -122,6 +121,7 @@
             btnCashier.TabIndex = 1;
             btnCashier.Text = "Add Cashier";
             btnCashier.UseVisualStyleBackColor = true;
+            btnCashier.Click += btnCashier_Click;
             // 
             // label1
             // 
@@ -145,6 +145,7 @@
             btnDashboard.TabIndex = 0;
             btnDashboard.Text = "Dashboard";
             btnDashboard.UseVisualStyleBackColor = true;
+            btnDashboard.Click += btnDashboard_Click;
             // 
             // pictureBox1
             // 
@@ -170,19 +171,11 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(242, 239, 229);
-            panel2.Controls.Add(adminProduct2);
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 70);
             panel2.Name = "panel2";
             panel2.Size = new Size(1440, 710);
             panel2.TabIndex = 1;
-            // 
-            // adminProduct2
-            // 
-            adminProduct2.Location = new Point(0, 0);
-            adminProduct2.Name = "adminProduct2";
-            adminProduct2.Size = new Size(1440, 710);
-            adminProduct2.TabIndex = 0;
             // 
             // MainForm
             // 
@@ -198,7 +191,6 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -215,8 +207,5 @@
         private Button btnProducts;
         private Button btnCashier;
         private Button btnDashboard;
-        private AdminAddUsers adminAddUsers1;
-        private AdminProduct adminProduct1;
-        private AdminProduct adminProduct2;
     }
 }

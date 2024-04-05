@@ -12,9 +12,13 @@ namespace CafeShopManagement
 {
     public partial class MainForm : Form
     {
+        private DashboardForm dashboardForm;
         public MainForm()
         {
             InitializeComponent();
+            dashboardForm = new DashboardForm();
+            ShowFormInPanel(dashboardForm);
+
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -36,6 +40,32 @@ namespace CafeShopManagement
 
                 this.Hide();
             }
+        }
+
+        private void ShowFormInPanel (Form formToShow)
+        {
+            panel2.Controls.Clear();
+            formToShow.TopLevel = false;
+            formToShow.Dock= DockStyle.Fill;
+            panel2.Controls.Add(formToShow);
+            formToShow.Show();
+        }
+
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            ShowFormInPanel(dashboardForm);
+        }
+
+        private void btnCashier_Click(object sender, EventArgs e)
+        {
+            AdminAddUser adminAddUser = new AdminAddUser();
+            ShowFormInPanel(adminAddUser);
+        }
+
+        private void btnProducts_Click(object sender, EventArgs e)
+        {
+           AdminAddProducts adminAddProducts = new AdminAddProducts();
+            ShowFormInPanel(adminAddProducts);
         }
     }
 }

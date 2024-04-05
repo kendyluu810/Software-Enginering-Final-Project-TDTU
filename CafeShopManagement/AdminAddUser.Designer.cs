@@ -1,13 +1,13 @@
 ﻿namespace CafeShopManagement
 {
-    partial class AdminAddUsers
+    partial class AdminAddUser
     {
-        /// <summary> 
+        /// <summary>
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary> 
+        /// <summary>
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
@@ -20,21 +20,24 @@
             base.Dispose(disposing);
         }
 
-        #region Component Designer generated code
+        #region Windows Form Designer generated code
 
-        /// <summary> 
-        /// Required method for Designer support - do not modify 
+        /// <summary>
+        /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            panelLeft = new Panel();
-            AdminAddUser_Export = new Button();
-            AdminAddUser_Deletebtn = new Button();
-            AdminAddUser_Clearbtn = new Button();
-            AdminAddUser_Updatebtn = new Button();
+            label6 = new Label();
+            dataGridView1 = new DataGridView();
+            panelRight = new Panel();
+            label1 = new Label();
             AdminAddUser_Addbtn = new Button();
+            AdminAddUser_Updatebtn = new Button();
+            AdminAddUser_Clearbtn = new Button();
+            AdminAddUser_Deletebtn = new Button();
+            AdminAddUser_Export = new Button();
             panel1 = new Panel();
             cbStatus = new ComboBox();
             cbRole = new ComboBox();
@@ -47,74 +50,85 @@
             AdminAddUser_Uploadbtn = new Button();
             panel2 = new Panel();
             AdminAddUser_ImageView = new PictureBox();
-            label1 = new Label();
-            panelRight = new Panel();
-            dataGridView1 = new DataGridView();
-            label6 = new Label();
-            panelLeft.SuspendLayout();
+            panelLeft = new Panel();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            panelRight.SuspendLayout();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)AdminAddUser_ImageView).BeginInit();
-            panelRight.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            panelLeft.SuspendLayout();
             SuspendLayout();
             // 
-            // panelLeft
+            // label6
             // 
-            panelLeft.Controls.Add(AdminAddUser_Export);
-            panelLeft.Controls.Add(AdminAddUser_Deletebtn);
-            panelLeft.Controls.Add(AdminAddUser_Clearbtn);
-            panelLeft.Controls.Add(AdminAddUser_Updatebtn);
-            panelLeft.Controls.Add(AdminAddUser_Addbtn);
-            panelLeft.Controls.Add(panel1);
-            panelLeft.Controls.Add(label1);
-            panelLeft.Dock = DockStyle.Left;
-            panelLeft.Location = new Point(0, 0);
-            panelLeft.Name = "panelLeft";
-            panelLeft.Size = new Size(500, 710);
-            panelLeft.TabIndex = 0;
+            label6.AutoSize = true;
+            label6.Font = new Font("Arial Rounded MT Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.ForeColor = Color.FromArgb(126, 99, 99);
+            label6.Location = new Point(45, 15);
+            label6.Name = "label6";
+            label6.Size = new Size(101, 22);
+            label6.TabIndex = 15;
+            label6.Text = "User Data";
             // 
-            // AdminAddUser_Export
+            // dataGridView1
             // 
-            AdminAddUser_Export.BackColor = Color.FromArgb(126, 99, 99);
-            AdminAddUser_Export.FlatStyle = FlatStyle.Flat;
-            AdminAddUser_Export.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            AdminAddUser_Export.ForeColor = Color.FromArgb(242, 239, 229);
-            AdminAddUser_Export.Location = new Point(195, 624);
-            AdminAddUser_Export.Name = "AdminAddUser_Export";
-            AdminAddUser_Export.Size = new Size(130, 35);
-            AdminAddUser_Export.TabIndex = 14;
-            AdminAddUser_Export.Text = "Export to CSV";
-            AdminAddUser_Export.UseVisualStyleBackColor = false;
-            AdminAddUser_Export.Click += AdminAddUser_Export_Click;
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.BorderStyle = BorderStyle.None;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.FromArgb(126, 99, 99);
+            dataGridViewCellStyle1.Font = new Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = Color.FromArgb(242, 239, 229);
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            dataGridView1.EnableHeadersVisualStyles = false;
+            dataGridView1.Location = new Point(50, 80);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
+            dataGridView1.RowHeadersVisible = false;
+            dataGridView1.Size = new Size(879, 500);
+            dataGridView1.TabIndex = 1;
+            dataGridView1.CellClick += dataGridView1_CellClick;
             // 
-            // AdminAddUser_Deletebtn
+            // panelRight
             // 
-            AdminAddUser_Deletebtn.BackColor = Color.FromArgb(126, 99, 99);
-            AdminAddUser_Deletebtn.FlatStyle = FlatStyle.Flat;
-            AdminAddUser_Deletebtn.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            AdminAddUser_Deletebtn.ForeColor = Color.FromArgb(242, 239, 229);
-            AdminAddUser_Deletebtn.Location = new Point(20, 624);
-            AdminAddUser_Deletebtn.Name = "AdminAddUser_Deletebtn";
-            AdminAddUser_Deletebtn.Size = new Size(109, 35);
-            AdminAddUser_Deletebtn.TabIndex = 13;
-            AdminAddUser_Deletebtn.Text = "Delete";
-            AdminAddUser_Deletebtn.UseVisualStyleBackColor = false;
-            AdminAddUser_Deletebtn.Click += AdminAddUser_Deletebtn_Click;
+            panelRight.Controls.Add(dataGridView1);
+            panelRight.Controls.Add(label6);
+            panelRight.Dock = DockStyle.Right;
+            panelRight.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            panelRight.Location = new Point(500, 0);
+            panelRight.Name = "panelRight";
+            panelRight.Size = new Size(940, 710);
+            panelRight.TabIndex = 3;
             // 
-            // AdminAddUser_Clearbtn
+            // label1
             // 
-            AdminAddUser_Clearbtn.BackColor = Color.FromArgb(126, 99, 99);
-            AdminAddUser_Clearbtn.FlatStyle = FlatStyle.Flat;
-            AdminAddUser_Clearbtn.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            AdminAddUser_Clearbtn.ForeColor = Color.FromArgb(242, 239, 229);
-            AdminAddUser_Clearbtn.Location = new Point(370, 572);
-            AdminAddUser_Clearbtn.Name = "AdminAddUser_Clearbtn";
-            AdminAddUser_Clearbtn.Size = new Size(109, 35);
-            AdminAddUser_Clearbtn.TabIndex = 12;
-            AdminAddUser_Clearbtn.Text = "Clear";
-            AdminAddUser_Clearbtn.UseVisualStyleBackColor = false;
-            AdminAddUser_Clearbtn.Click += AdminAddUser_Clearbtn_Click;
+            label1.AutoSize = true;
+            label1.Font = new Font("Arial Rounded MT Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.FromArgb(126, 99, 99);
+            label1.Location = new Point(45, 15);
+            label1.Name = "label1";
+            label1.Size = new Size(106, 22);
+            label1.TabIndex = 0;
+            label1.Text = "Add Users";
+            // 
+            // AdminAddUser_Addbtn
+            // 
+            AdminAddUser_Addbtn.BackColor = Color.FromArgb(126, 99, 99);
+            AdminAddUser_Addbtn.FlatStyle = FlatStyle.Flat;
+            AdminAddUser_Addbtn.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            AdminAddUser_Addbtn.ForeColor = Color.FromArgb(242, 239, 229);
+            AdminAddUser_Addbtn.Location = new Point(20, 572);
+            AdminAddUser_Addbtn.Name = "AdminAddUser_Addbtn";
+            AdminAddUser_Addbtn.Size = new Size(109, 35);
+            AdminAddUser_Addbtn.TabIndex = 10;
+            AdminAddUser_Addbtn.Text = "Add";
+            AdminAddUser_Addbtn.UseVisualStyleBackColor = false;
+            AdminAddUser_Addbtn.Click += AdminAddUser_Addbtn_Click;
             // 
             // AdminAddUser_Updatebtn
             // 
@@ -130,19 +144,47 @@
             AdminAddUser_Updatebtn.UseVisualStyleBackColor = false;
             AdminAddUser_Updatebtn.Click += AdminAddUser_Updatebtn_Click;
             // 
-            // AdminAddUser_Addbtn
+            // AdminAddUser_Clearbtn
             // 
-            AdminAddUser_Addbtn.BackColor = Color.FromArgb(126, 99, 99);
-            AdminAddUser_Addbtn.FlatStyle = FlatStyle.Flat;
-            AdminAddUser_Addbtn.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            AdminAddUser_Addbtn.ForeColor = Color.FromArgb(242, 239, 229);
-            AdminAddUser_Addbtn.Location = new Point(20, 572);
-            AdminAddUser_Addbtn.Name = "AdminAddUser_Addbtn";
-            AdminAddUser_Addbtn.Size = new Size(109, 35);
-            AdminAddUser_Addbtn.TabIndex = 10;
-            AdminAddUser_Addbtn.Text = "Add";
-            AdminAddUser_Addbtn.UseVisualStyleBackColor = false;
-            AdminAddUser_Addbtn.Click += AdminAddUser_Addbtn_Click;
+            AdminAddUser_Clearbtn.BackColor = Color.FromArgb(126, 99, 99);
+            AdminAddUser_Clearbtn.FlatStyle = FlatStyle.Flat;
+            AdminAddUser_Clearbtn.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            AdminAddUser_Clearbtn.ForeColor = Color.FromArgb(242, 239, 229);
+            AdminAddUser_Clearbtn.Location = new Point(370, 572);
+            AdminAddUser_Clearbtn.Name = "AdminAddUser_Clearbtn";
+            AdminAddUser_Clearbtn.Size = new Size(109, 35);
+            AdminAddUser_Clearbtn.TabIndex = 12;
+            AdminAddUser_Clearbtn.Text = "Clear";
+            AdminAddUser_Clearbtn.UseVisualStyleBackColor = false;
+            AdminAddUser_Clearbtn.Click += AdminAddUser_Clearbtn_Click;
+            // 
+            // AdminAddUser_Deletebtn
+            // 
+            AdminAddUser_Deletebtn.BackColor = Color.FromArgb(126, 99, 99);
+            AdminAddUser_Deletebtn.FlatStyle = FlatStyle.Flat;
+            AdminAddUser_Deletebtn.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            AdminAddUser_Deletebtn.ForeColor = Color.FromArgb(242, 239, 229);
+            AdminAddUser_Deletebtn.Location = new Point(20, 624);
+            AdminAddUser_Deletebtn.Name = "AdminAddUser_Deletebtn";
+            AdminAddUser_Deletebtn.Size = new Size(109, 35);
+            AdminAddUser_Deletebtn.TabIndex = 13;
+            AdminAddUser_Deletebtn.Text = "Delete";
+            AdminAddUser_Deletebtn.UseVisualStyleBackColor = false;
+            AdminAddUser_Deletebtn.Click += AdminAddUser_Deletebtn_Click;
+            // 
+            // AdminAddUser_Export
+            // 
+            AdminAddUser_Export.BackColor = Color.FromArgb(126, 99, 99);
+            AdminAddUser_Export.FlatStyle = FlatStyle.Flat;
+            AdminAddUser_Export.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            AdminAddUser_Export.ForeColor = Color.FromArgb(242, 239, 229);
+            AdminAddUser_Export.Location = new Point(195, 624);
+            AdminAddUser_Export.Name = "AdminAddUser_Export";
+            AdminAddUser_Export.Size = new Size(130, 35);
+            AdminAddUser_Export.TabIndex = 14;
+            AdminAddUser_Export.Text = "Export to CSV";
+            AdminAddUser_Export.UseVisualStyleBackColor = false;
+            AdminAddUser_Export.Click += AdminAddUser_Export_Click;
             // 
             // panel1
             // 
@@ -270,93 +312,56 @@
             AdminAddUser_ImageView.TabIndex = 0;
             AdminAddUser_ImageView.TabStop = false;
             // 
-            // label1
+            // panelLeft
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Arial Rounded MT Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.FromArgb(126, 99, 99);
-            label1.Location = new Point(45, 15);
-            label1.Name = "label1";
-            label1.Size = new Size(106, 22);
-            label1.TabIndex = 0;
-            label1.Text = "Add Users";
+            panelLeft.Controls.Add(panel1);
+            panelLeft.Controls.Add(AdminAddUser_Export);
+            panelLeft.Controls.Add(AdminAddUser_Deletebtn);
+            panelLeft.Controls.Add(AdminAddUser_Clearbtn);
+            panelLeft.Controls.Add(AdminAddUser_Updatebtn);
+            panelLeft.Controls.Add(AdminAddUser_Addbtn);
+            panelLeft.Controls.Add(label1);
+            panelLeft.Dock = DockStyle.Left;
+            panelLeft.Location = new Point(0, 0);
+            panelLeft.Name = "panelLeft";
+            panelLeft.Size = new Size(500, 710);
+            panelLeft.TabIndex = 2;
             // 
-            // panelRight
-            // 
-            panelRight.Controls.Add(dataGridView1);
-            panelRight.Controls.Add(label6);
-            panelRight.Dock = DockStyle.Fill;
-            panelRight.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            panelRight.Location = new Point(500, 0);
-            panelRight.Name = "panelRight";
-            panelRight.Size = new Size(940, 710);
-            panelRight.TabIndex = 1;
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.AllowUserToAddRows = false;
-            dataGridView1.AllowUserToDeleteRows = false;
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridView1.BorderStyle = BorderStyle.None;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = Color.FromArgb(126, 99, 99);
-            dataGridViewCellStyle1.Font = new Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle1.ForeColor = Color.FromArgb(242, 239, 229);
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridView1.EnableHeadersVisualStyles = false;
-            dataGridView1.Location = new Point(50, 80);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.ReadOnly = true;
-            dataGridView1.RowHeadersVisible = false;
-            dataGridView1.Size = new Size(879, 500);
-            dataGridView1.TabIndex = 1;
-            dataGridView1.CellClick += dataGridView1_CellClick;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Arial Rounded MT Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.FromArgb(126, 99, 99);
-            label6.Location = new Point(45, 15);
-            label6.Name = "label6";
-            label6.Size = new Size(101, 22);
-            label6.TabIndex = 15;
-            label6.Text = "User Data";
-            // 
-            // AdminAddUsers
+            // AdminAddUser
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(242, 239, 229);
+            ClientSize = new Size(1440, 710);
             Controls.Add(panelRight);
             Controls.Add(panelLeft);
-            Name = "AdminAddUsers";
-            Size = new Size(1440, 710);
-            panelLeft.ResumeLayout(false);
-            panelLeft.PerformLayout();
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "AdminAddUser";
+            Text = "AdminAddUser";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            panelRight.ResumeLayout(false);
+            panelRight.PerformLayout();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)AdminAddUser_ImageView).EndInit();
-            panelRight.ResumeLayout(false);
-            panelRight.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            panelLeft.ResumeLayout(false);
+            panelLeft.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel panelLeft;
-        private Panel panel1;
-        private Label label2;
-        private Button AdminAddUser_Uploadbtn;
-        private Panel panel2;
-        private Label label1;
+        private Label label6;
+        private DataGridView dataGridView1;
         private Panel panelRight;
+        private Label label1;
+        private Button AdminAddUser_Addbtn;
+        private Button AdminAddUser_Updatebtn;
+        private Button AdminAddUser_Clearbtn;
+        private Button AdminAddUser_Deletebtn;
+        private Button AdminAddUser_Export;
+        private Panel panel1;
         private ComboBox cbStatus;
         private ComboBox cbRole;
         private Label label5;
@@ -364,13 +369,10 @@
         private TextBox tbPass;
         private Label label3;
         private TextBox tbUsername;
-        private Button AdminAddUser_Export;
-        private Button AdminAddUser_Deletebtn;
-        private Button AdminAddUser_Clearbtn;
-        private Button AdminAddUser_Updatebtn;
-        private Button AdminAddUser_Addbtn;
-        private Label label6;
+        private Label label2;
+        private Button AdminAddUser_Uploadbtn;
+        private Panel panel2;
         private PictureBox AdminAddUser_ImageView;
-        private DataGridView dataGridView1;
+        private Panel panelLeft;
     }
 }

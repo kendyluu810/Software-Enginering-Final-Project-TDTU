@@ -16,6 +16,7 @@ namespace CafeShopManagement
     {
         static string conn = ConfigurationManager.ConnectionStrings["connectData"].ConnectionString;
         SqlConnection cn = new SqlConnection(conn);
+
         public LoginForm()
         {
             InitializeComponent();

@@ -27,6 +27,19 @@ D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\ne
 D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\ref\CafeShopManagement.dll
 D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.MainForm.resources
 D:\Github\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.Dashboard.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.csproj.AssemblyReference.cache
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.AdminAddProducts.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.AdminAddUser.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.LoginForm.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.MainForm.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.Properties.Resources.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.RegisterForm.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.csproj.GenerateResource.cache
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.GeneratedMSBuildEditorConfig.editorconfig
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.AssemblyInfoInputs.cache
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.AssemblyInfo.cs
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.csproj.CoreCompileInputs.cache
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.sourcelink.json
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\CafeShopManagement.exe
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\CafeShopManagement.dll.config
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\CafeShopManagement.deps.json
@@ -39,23 +52,10 @@ E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bi
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.csproj.AssemblyReference.cache
-E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.Dashboard.resources
-E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.LoginForm.resources
-E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.MainForm.resources
-E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.Properties.Resources.resources
-E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.RegisterForm.resources
-E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.csproj.GenerateResource.cache
-E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.GeneratedMSBuildEditorConfig.editorconfig
-E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.AssemblyInfoInputs.cache
-E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.AssemblyInfo.cs
-E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.csproj.CoreCompileInputs.cache
-E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.sourcelink.json
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.csproj.CopyComplete
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.dll
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\refint\CafeShopManagement.dll
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.pdb
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.genruntimeconfig.cache
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\ref\CafeShopManagement.dll
-E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.AdminAddUsers.resources
-E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.AdminProduct.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\obj\Debug\net8.0-windows\CafeShopManagement.DashboardForm.resources

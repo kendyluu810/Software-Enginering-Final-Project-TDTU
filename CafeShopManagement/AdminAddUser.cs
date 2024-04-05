@@ -9,19 +9,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.Tab;
 
 namespace CafeShopManagement
 {
-    public partial class AdminAddUsers : UserControl
+    public partial class AdminAddUser : Form
     {
         static string conn = ConfigurationManager.ConnectionStrings["connectData"].ConnectionString;
         SqlConnection cn = new SqlConnection(conn);
         private int id = 0;
-        public AdminAddUsers()
+
+        public AdminAddUser()
         {
             InitializeComponent();
-            displayAddUserData();
         }
 
         public void displayAddUserData()
@@ -36,6 +35,63 @@ namespace CafeShopManagement
         {
             if (tbUsername.Text == "" || tbPass.Text == "" || cbRole.Text == "" || cbStatus.Text == "" || AdminAddUser_ImageView.Image == null) return true;
             return false;
+        }
+
+        public void clearFields()
+        {
+            tbUsername.Text = "";
+            tbPass.Text = "";
+            cbRole.SelectedIndex = -1;
+            cbStatus.SelectedIndex = -1;
+            AdminAddUser_ImageView.Image = null;
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+            id = (int)row.Cells[0].Value;
+            tbUsername.Text = row.Cells[1].Value.ToString();
+            tbPass.Text = row.Cells[2].Value.ToString();
+            cbRole.Text = row.Cells[3].Value.ToString();
+            cbStatus.Text = row.Cells[4].Value.ToString();
+
+            string imagePath = row.Cells[5].Value.ToString();
+
+            try
+            {
+                if (imagePath != null)
+                {
+                    AdminAddUser_ImageView.Image = Image.FromFile(imagePath);
+                }
+                else
+                {
+                    AdminAddUser_ImageView.Image = null;
+                }
+            }
+            catch
+            {
+                MessageBox.Show("No Image!", "Error Messgae", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void AdminAddUser_Uploadbtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OpenFileDialog dialog = new OpenFileDialog();
+                dialog.Filter = "Image FIles(*.jpg; *.png|*.jpg;*.png)";
+                string imagePath = "";
+
+                if (dialog.ShowDialog() == DialogResult.OK)
+                {
+                    imagePath = dialog.FileName;
+                    AdminAddUser_ImageView.ImageLocation = imagePath;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error" + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void AdminAddUser_Addbtn_Click(object sender, EventArgs e)
@@ -114,26 +170,6 @@ namespace CafeShopManagement
             }
         }
 
-        private void AdminAddUser_Uploadbtn_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                OpenFileDialog dialog = new OpenFileDialog();
-                dialog.Filter = "Image FIles(*.jpg; *.png|*.jpg;*.png)";
-                string imagePath = "";
-
-                if (dialog.ShowDialog() == DialogResult.OK)
-                {
-                    imagePath = dialog.FileName;
-                    AdminAddUser_ImageView.ImageLocation = imagePath;
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error" + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
         private void AdminAddUser_Updatebtn_Click(object sender, EventArgs e)
         {
             if (emptyFields())
@@ -177,45 +213,6 @@ namespace CafeShopManagement
                     }
                 }
             }
-
-        }
-
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
-            id = (int)row.Cells[0].Value;
-            tbUsername.Text = row.Cells[1].Value.ToString();
-            tbPass.Text = row.Cells[2].Value.ToString();
-            cbRole.Text = row.Cells[3].Value.ToString();
-            cbStatus.Text = row.Cells[4].Value.ToString();
-
-            string imagePath = row.Cells[5].Value.ToString();
-
-            try
-            {
-                if (imagePath != null)
-                {
-                    AdminAddUser_ImageView.Image = Image.FromFile(imagePath);
-                }
-                else
-                {
-                    AdminAddUser_ImageView.Image = null;
-                }
-            }
-            catch
-            {
-                MessageBox.Show("No Image!", "Error Messgae", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-
-        }
-
-        public void clearFields()
-        {
-            tbUsername.Text = "";
-            tbPass.Text = "";
-            cbRole.SelectedIndex = -1;
-            cbStatus.SelectedIndex = -1;
-            AdminAddUser_ImageView.Image = null;
         }
 
         private void AdminAddUser_Clearbtn_Click(object sender, EventArgs e)
@@ -265,6 +262,11 @@ namespace CafeShopManagement
             }
         }
 
+        private void AdminAddUser_Export_Click(object sender, EventArgs e)
+        {
+            ExportToCSV();
+        }
+
         private void ExportToCSV()
         {
             try
@@ -301,11 +303,6 @@ namespace CafeShopManagement
             {
                 MessageBox.Show("Failed to export data to CSV: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
-
-        private void AdminAddUser_Export_Click(object sender, EventArgs e)
-        {
-            ExportToCSV();
         }
     }
 }

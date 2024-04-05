@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CafeShopManagement
 {
-    public partial class Dashboard : UserControl
+    public partial class DashboardForm : Form
     {
-        public Dashboard()
+        public DashboardForm()
         {
             InitializeComponent();
         }
