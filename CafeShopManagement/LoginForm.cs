@@ -59,7 +59,7 @@ namespace CafeShopManagement
                     try
                     {
                         cn.Open();
-                        string selectAccount = "SELECT * FROM users WHERE username = @username AND password = @pass AND status = @status";
+                        string selectAccount = "SELECT COUNT (*) FROM users WHERE username = @username AND password = @pass AND status = @status";
 
                         using (SqlCommand cm = new SqlCommand(selectAccount, cn))
                         {
@@ -67,17 +67,37 @@ namespace CafeShopManagement
                             cm.Parameters.AddWithValue("@pass", tbPass.Text.Trim());
                             cm.Parameters.AddWithValue("@status", "Active");
 
-                            SqlDataAdapter data = new SqlDataAdapter(cm);
-                            DataTable dt = new DataTable();
-                            data.Fill(dt);
+                            int rowCount = (int) cm.ExecuteScalar();
 
-                            if (dt.Rows.Count >= 1)
+                            if(rowCount > 0)
                             {
-                                MessageBox.Show("Login Successful", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                                MainForm mainform = new MainForm();
-                                mainform.Show();
+                                string selectRole = "SELECT role FROM users WHERE username = @username AND password = @pass";
 
-                                this.Hide();
+                                using (SqlCommand getRole = new SqlCommand(selectRole, cn))
+                                {
+                                    getRole.Parameters.AddWithValue("@username", tbUser.Text.Trim());
+                                    getRole.Parameters.AddWithValue("@pass", tbPass.Text.Trim());
+
+                                    string userRole = getRole.ExecuteScalar() as string;
+
+                                    MessageBox.Show("Login Successful", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                    if (userRole == "Admin")
+                                    {
+                                        MainForm mainForm = new MainForm();
+                                        mainForm.Show();
+
+                                        this.Hide();
+
+                                    }
+                                    else if (userRole == "Cashier")
+                                    {
+                                        CashierMainForm cashierMainForm = new CashierMainForm();
+                                        cashierMainForm.Show();
+
+                                        this.Hide();
+                                    }
+                                }
                             }
                             else
                             {

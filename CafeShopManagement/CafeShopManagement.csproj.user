@@ -7,6 +7,15 @@
     <Compile Update="AdminAddUser.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="CashierCustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CashierMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CashierOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="DashboardForm.cs">
       <SubType>Form</SubType>
     </Compile>

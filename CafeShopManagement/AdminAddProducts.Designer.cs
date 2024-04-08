@@ -95,9 +95,9 @@
             label7.ForeColor = Color.FromArgb(126, 99, 99);
             label7.Location = new Point(587, 120);
             label7.Name = "label7";
-            label7.Size = new Size(50, 18);
+            label7.Size = new Size(101, 18);
             label7.TabIndex = 27;
-            label7.Text = "Price";
+            label7.Text = "Price (VND)";
             // 
             // tbStock
             // 
@@ -366,6 +366,7 @@
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "AdminAddProducts";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "AdminAddProducts";
             ((System.ComponentModel.ISupportInitialize)AdminAddProduct_ImageView).EndInit();
             panel2.ResumeLayout(false);

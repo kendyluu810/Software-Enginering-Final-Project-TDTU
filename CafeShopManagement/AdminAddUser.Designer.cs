@@ -205,20 +205,22 @@
             // 
             // cbStatus
             // 
+            cbStatus.Font = new Font("Arial Rounded MT Bold", 12F);
             cbStatus.FormattingEnabled = true;
             cbStatus.Items.AddRange(new object[] { "Active", "Inactive", "Approval" });
             cbStatus.Location = new Point(270, 423);
             cbStatus.Name = "cbStatus";
-            cbStatus.Size = new Size(153, 23);
+            cbStatus.Size = new Size(153, 26);
             cbStatus.TabIndex = 9;
             // 
             // cbRole
             // 
+            cbRole.Font = new Font("Arial Rounded MT Bold", 12F);
             cbRole.FormattingEnabled = true;
             cbRole.Items.AddRange(new object[] { "Admin", "Cashier" });
             cbRole.Location = new Point(49, 423);
             cbRole.Name = "cbRole";
-            cbRole.Size = new Size(153, 23);
+            cbRole.Size = new Size(153, 26);
             cbRole.TabIndex = 8;
             // 
             // label5
@@ -245,9 +247,10 @@
             // 
             // tbPass
             // 
+            tbPass.Font = new Font("Arial Rounded MT Bold", 12F);
             tbPass.Location = new Point(49, 352);
             tbPass.Name = "tbPass";
-            tbPass.Size = new Size(374, 23);
+            tbPass.Size = new Size(374, 26);
             tbPass.TabIndex = 5;
             // 
             // label3
@@ -263,9 +266,10 @@
             // 
             // tbUsername
             // 
+            tbUsername.Font = new Font("Arial Rounded MT Bold", 12F);
             tbUsername.Location = new Point(49, 287);
             tbUsername.Name = "tbUsername";
-            tbUsername.Size = new Size(374, 23);
+            tbUsername.Size = new Size(374, 26);
             tbUsername.TabIndex = 3;
             // 
             // label2
@@ -337,6 +341,7 @@
             Controls.Add(panelLeft);
             FormBorderStyle = FormBorderStyle.None;
             Name = "AdminAddUser";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "AdminAddUser";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             panelRight.ResumeLayout(false);

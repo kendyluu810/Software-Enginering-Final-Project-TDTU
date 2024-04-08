@@ -21,6 +21,7 @@ namespace CafeShopManagement
         public AdminAddUser()
         {
             InitializeComponent();
+            displayAddUserData();
         }
 
         public void displayAddUserData()
