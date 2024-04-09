@@ -32,13 +32,13 @@
             btnCustomer = new Button();
             btnLogout = new Button();
             btnProducts = new Button();
-            label2 = new Label();
+            AdminMainForm_User = new Label();
+            btnCashier = new Button();
             label1 = new Label();
             btnDashboard = new Button();
             pictureBox1 = new PictureBox();
             btnExit = new Label();
             panel2 = new Panel();
-            btnCashier = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -49,7 +49,7 @@
             panel1.Controls.Add(btnCustomer);
             panel1.Controls.Add(btnLogout);
             panel1.Controls.Add(btnProducts);
-            panel1.Controls.Add(label2);
+            panel1.Controls.Add(AdminMainForm_User);
             panel1.Controls.Add(btnCashier);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(btnDashboard);
@@ -72,6 +72,7 @@
             btnCustomer.TabIndex = 3;
             btnCustomer.Text = "Customer";
             btnCustomer.UseVisualStyleBackColor = true;
+            btnCustomer.Click += btnCustomer_Click;
             // 
             // btnLogout
             // 
@@ -99,16 +100,29 @@
             btnProducts.UseVisualStyleBackColor = true;
             btnProducts.Click += btnProducts_Click;
             // 
-            // label2
+            // AdminMainForm_User
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.FromArgb(126, 99, 99);
-            label2.Location = new Point(1289, 27);
-            label2.Name = "label2";
-            label2.Size = new Size(54, 17);
-            label2.TabIndex = 4;
-            label2.Text = "Admin";
+            AdminMainForm_User.AutoSize = true;
+            AdminMainForm_User.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            AdminMainForm_User.ForeColor = Color.FromArgb(126, 99, 99);
+            AdminMainForm_User.Location = new Point(1289, 27);
+            AdminMainForm_User.Name = "AdminMainForm_User";
+            AdminMainForm_User.Size = new Size(54, 17);
+            AdminMainForm_User.TabIndex = 4;
+            AdminMainForm_User.Text = "Admin";
+            // 
+            // btnCashier
+            // 
+            btnCashier.FlatStyle = FlatStyle.Flat;
+            btnCashier.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnCashier.ForeColor = Color.FromArgb(126, 99, 99);
+            btnCashier.Location = new Point(482, 16);
+            btnCashier.Name = "btnCashier";
+            btnCashier.Size = new Size(129, 38);
+            btnCashier.TabIndex = 1;
+            btnCashier.Text = "Add Cashier";
+            btnCashier.UseVisualStyleBackColor = true;
+            btnCashier.Click += btnCashier_Click;
             // 
             // label1
             // 
@@ -164,19 +178,6 @@
             panel2.Size = new Size(1440, 710);
             panel2.TabIndex = 1;
             // 
-            // btnCashier
-            // 
-            btnCashier.FlatStyle = FlatStyle.Flat;
-            btnCashier.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCashier.ForeColor = Color.FromArgb(126, 99, 99);
-            btnCashier.Location = new Point(482, 16);
-            btnCashier.Name = "btnCashier";
-            btnCashier.Size = new Size(129, 38);
-            btnCashier.TabIndex = 1;
-            btnCashier.Text = "Add Cashier";
-            btnCashier.UseVisualStyleBackColor = true;
-            btnCashier.Click += btnCashier_Click;
-            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -199,7 +200,7 @@
         private Panel panel1;
         private Label btnExit;
         private Panel panel2;
-        private Label label2;
+        private Label AdminMainForm_User;
         private Label label1;
         private PictureBox pictureBox1;
         private Button btnCustomer;

@@ -180,9 +180,9 @@
             CashierOrderForm_Price.ForeColor = Color.FromArgb(126, 99, 99);
             CashierOrderForm_Price.Location = new Point(204, 153);
             CashierOrderForm_Price.Name = "CashierOrderForm_Price";
-            CashierOrderForm_Price.Size = new Size(58, 18);
+            CashierOrderForm_Price.Size = new Size(12, 18);
             CashierOrderForm_Price.TabIndex = 18;
-            CashierOrderForm_Price.Text = "59000";
+            CashierOrderForm_Price.Text = " ";
             // 
             // label8
             // 
@@ -221,9 +221,9 @@
             CashierOrderForm_ProductName.ForeColor = Color.FromArgb(126, 99, 99);
             CashierOrderForm_ProductName.Location = new Point(204, 97);
             CashierOrderForm_ProductName.Name = "CashierOrderForm_ProductName";
-            CashierOrderForm_ProductName.Size = new Size(111, 18);
+            CashierOrderForm_ProductName.Size = new Size(12, 18);
             CashierOrderForm_ProductName.TabIndex = 14;
-            CashierOrderForm_ProductName.Text = "Test Product";
+            CashierOrderForm_ProductName.Text = " ";
             // 
             // label3
             // 
@@ -372,9 +372,9 @@
             CashierOrderForm_orderPrice.ForeColor = Color.FromArgb(126, 99, 99);
             CashierOrderForm_orderPrice.Location = new Point(357, 356);
             CashierOrderForm_orderPrice.Name = "CashierOrderForm_orderPrice";
-            CashierOrderForm_orderPrice.Size = new Size(58, 18);
+            CashierOrderForm_orderPrice.Size = new Size(18, 18);
             CashierOrderForm_orderPrice.TabIndex = 23;
-            CashierOrderForm_orderPrice.Text = "59000";
+            CashierOrderForm_orderPrice.Text = "0";
             // 
             // label10
             // 

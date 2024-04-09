@@ -24,6 +24,17 @@ namespace CafeShopManagement
             displayAddUserData();
         }
 
+        public void refreshData()
+        {
+            if (InvokeRequired)
+            {
+                Invoke((MethodInvoker)refreshData);
+                return;
+            }
+            displayAddUserData();
+        }
+
+
         public void displayAddUserData()
         {
             AdminAddUsersData usersData = new AdminAddUsersData();

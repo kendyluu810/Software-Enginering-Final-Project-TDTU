@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            button1 = new Button();
+            btnProduct = new Button();
             btnCustomer = new Button();
             btnLogout = new Button();
             btnOrder = new Button();
-            label2 = new Label();
+            CashierMainForm_User = new Label();
             label1 = new Label();
             btnDashboard = new Button();
             pictureBox1 = new PictureBox();
@@ -46,11 +46,11 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(242, 239, 229);
-            panel1.Controls.Add(button1);
+            panel1.Controls.Add(btnProduct);
             panel1.Controls.Add(btnCustomer);
             panel1.Controls.Add(btnLogout);
             panel1.Controls.Add(btnOrder);
-            panel1.Controls.Add(label2);
+            panel1.Controls.Add(CashierMainForm_User);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(btnDashboard);
             panel1.Controls.Add(pictureBox1);
@@ -61,17 +61,18 @@
             panel1.Size = new Size(1440, 70);
             panel1.TabIndex = 1;
             // 
-            // button1
+            // btnProduct
             // 
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.FromArgb(126, 99, 99);
-            button1.Location = new Point(482, 16);
-            button1.Name = "button1";
-            button1.Size = new Size(129, 38);
-            button1.TabIndex = 5;
-            button1.Text = "Add Products";
-            button1.UseVisualStyleBackColor = true;
+            btnProduct.FlatStyle = FlatStyle.Flat;
+            btnProduct.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnProduct.ForeColor = Color.FromArgb(126, 99, 99);
+            btnProduct.Location = new Point(482, 16);
+            btnProduct.Name = "btnProduct";
+            btnProduct.Size = new Size(129, 38);
+            btnProduct.TabIndex = 5;
+            btnProduct.Text = "Add Products";
+            btnProduct.UseVisualStyleBackColor = true;
+            btnProduct.Click += btnProduct_Click;
             // 
             // btnCustomer
             // 
@@ -84,6 +85,7 @@
             btnCustomer.TabIndex = 3;
             btnCustomer.Text = "Customer";
             btnCustomer.UseVisualStyleBackColor = true;
+            btnCustomer.Click += btnCustomer_Click;
             // 
             // btnLogout
             // 
@@ -111,16 +113,16 @@
             btnOrder.UseVisualStyleBackColor = true;
             btnOrder.Click += btnOrder_Click;
             // 
-            // label2
+            // CashierMainForm_User
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.FromArgb(126, 99, 99);
-            label2.Location = new Point(1289, 27);
-            label2.Name = "label2";
-            label2.Size = new Size(54, 17);
-            label2.TabIndex = 4;
-            label2.Text = "Admin";
+            CashierMainForm_User.AutoSize = true;
+            CashierMainForm_User.Font = new Font("Arial Rounded MT Bold", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            CashierMainForm_User.ForeColor = Color.FromArgb(126, 99, 99);
+            CashierMainForm_User.Location = new Point(1289, 27);
+            CashierMainForm_User.Name = "CashierMainForm_User";
+            CashierMainForm_User.Size = new Size(54, 17);
+            CashierMainForm_User.TabIndex = 4;
+            CashierMainForm_User.Text = "Admin";
             // 
             // label1
             // 
@@ -144,6 +146,7 @@
             btnDashboard.TabIndex = 0;
             btnDashboard.Text = "Dashboard";
             btnDashboard.UseVisualStyleBackColor = true;
+            btnDashboard.Click += btnDashboard_Click;
             // 
             // pictureBox1
             // 
@@ -171,7 +174,7 @@
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 70);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1440, 640);
+            panel2.Size = new Size(1440, 710);
             panel2.TabIndex = 2;
             // 
             // CashierMainForm
@@ -179,7 +182,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(242, 239, 229);
-            ClientSize = new Size(1440, 710);
+            ClientSize = new Size(1440, 780);
             Controls.Add(panel2);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
@@ -198,12 +201,12 @@
         private Button btnCustomer;
         private Button btnLogout;
         private Button btnOrder;
-        private Label label2;
+        private Label CashierMainForm_User;
         private Label label1;
         private Button btnDashboard;
         private PictureBox pictureBox1;
         private Label btnExit;
-        private Button button1;
+        private Button btnProduct;
         private Panel panel2;
     }
 }

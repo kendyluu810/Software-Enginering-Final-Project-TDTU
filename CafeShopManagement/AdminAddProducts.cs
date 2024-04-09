@@ -22,6 +22,18 @@ namespace CafeShopManagement
             InitializeComponent();
             displayData();
         }
+
+        public void refreshData()
+        {
+            if (InvokeRequired)
+            {
+                Invoke((MethodInvoker)refreshData);
+                return;
+            }
+            displayData();
+        }
+
+
         public void displayData()
         {
             AdminAddProductsData prodData = new AdminAddProductsData();

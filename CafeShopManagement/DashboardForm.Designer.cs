@@ -30,20 +30,20 @@
         {
             label1 = new Label();
             pictureBox2 = new PictureBox();
-            label3 = new Label();
+            dashboard_Tin = new Label();
             panel6 = new Panel();
             label2 = new Label();
             pictureBox4 = new PictureBox();
-            label6 = new Label();
+            dashboard_TC = new Label();
             label7 = new Label();
             panel5 = new Panel();
             pictureBox3 = new PictureBox();
-            label4 = new Label();
+            dashboard_Ttin = new Label();
             label5 = new Label();
             panel3 = new Panel();
             pictureBox5 = new PictureBox();
-            label8 = new Label();
-            label9 = new Label();
+            dashboard_TCust = new Label();
+            label = new Label();
             panel4 = new Panel();
             pictureBox1 = new PictureBox();
             panel1 = new Panel();
@@ -82,22 +82,23 @@
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
             // 
-            // label3
+            // dashboard_Tin
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(114, 86);
-            label3.Name = "label3";
-            label3.Size = new Size(22, 24);
-            label3.TabIndex = 1;
-            label3.Text = "0";
+            dashboard_Tin.AutoSize = true;
+            dashboard_Tin.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dashboard_Tin.ForeColor = Color.White;
+            dashboard_Tin.Location = new Point(118, 86);
+            dashboard_Tin.Name = "dashboard_Tin";
+            dashboard_Tin.Size = new Size(15, 24);
+            dashboard_Tin.TabIndex = 1;
+            dashboard_Tin.Text = " ";
+            dashboard_Tin.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel6
             // 
             panel6.BackColor = Color.FromArgb(126, 99, 99);
             panel6.Controls.Add(pictureBox2);
-            panel6.Controls.Add(label3);
+            panel6.Controls.Add(dashboard_Tin);
             panel6.Controls.Add(label2);
             panel6.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             panel6.Location = new Point(80, 100);
@@ -110,11 +111,11 @@
             label2.AutoSize = true;
             label2.Font = new Font("Arial Rounded MT Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(49, 40);
+            label2.Location = new Point(19, 40);
             label2.Name = "label2";
-            label2.Size = new Size(153, 22);
+            label2.Size = new Size(213, 22);
             label2.TabIndex = 0;
-            label2.Text = "Today's Income";
+            label2.Text = "Today's Income (VND)";
             // 
             // pictureBox4
             // 
@@ -126,16 +127,17 @@
             pictureBox4.TabIndex = 5;
             pictureBox4.TabStop = false;
             // 
-            // label6
+            // dashboard_TC
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(119, 74);
-            label6.Name = "label6";
-            label6.Size = new Size(22, 24);
-            label6.TabIndex = 4;
-            label6.Text = "0";
+            dashboard_TC.AutoSize = true;
+            dashboard_TC.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dashboard_TC.ForeColor = Color.White;
+            dashboard_TC.Location = new Point(118, 74);
+            dashboard_TC.Name = "dashboard_TC";
+            dashboard_TC.Size = new Size(15, 24);
+            dashboard_TC.TabIndex = 4;
+            dashboard_TC.Text = " ";
+            dashboard_TC.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label7
             // 
@@ -152,7 +154,7 @@
             // 
             panel5.BackColor = Color.FromArgb(126, 99, 99);
             panel5.Controls.Add(pictureBox4);
-            panel5.Controls.Add(label6);
+            panel5.Controls.Add(dashboard_TC);
             panel5.Controls.Add(label7);
             panel5.Location = new Point(80, 400);
             panel5.Name = "panel5";
@@ -169,33 +171,34 @@
             pictureBox3.TabIndex = 5;
             pictureBox3.TabStop = false;
             // 
-            // label4
+            // dashboard_Ttin
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(114, 86);
-            label4.Name = "label4";
-            label4.Size = new Size(22, 24);
-            label4.TabIndex = 4;
-            label4.Text = "0";
+            dashboard_Ttin.AutoSize = true;
+            dashboard_Ttin.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dashboard_Ttin.ForeColor = Color.White;
+            dashboard_Ttin.Location = new Point(118, 86);
+            dashboard_Ttin.Name = "dashboard_Ttin";
+            dashboard_Ttin.Size = new Size(15, 24);
+            dashboard_Ttin.TabIndex = 4;
+            dashboard_Ttin.Text = " ";
+            dashboard_Ttin.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Arial Rounded MT Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.White;
-            label5.Location = new Point(60, 40);
+            label5.Location = new Point(31, 40);
             label5.Name = "label5";
-            label5.Size = new Size(128, 22);
+            label5.Size = new Size(188, 22);
             label5.TabIndex = 3;
-            label5.Text = "Total Income";
+            label5.Text = "Total Income (VND)";
             // 
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(126, 99, 99);
             panel3.Controls.Add(pictureBox3);
-            panel3.Controls.Add(label4);
+            panel3.Controls.Add(dashboard_Ttin);
             panel3.Controls.Add(label5);
             panel3.Location = new Point(410, 100);
             panel3.Name = "panel3";
@@ -212,34 +215,35 @@
             pictureBox5.TabIndex = 8;
             pictureBox5.TabStop = false;
             // 
-            // label8
+            // dashboard_TCust
             // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.ForeColor = Color.White;
-            label8.Location = new Point(114, 74);
-            label8.Name = "label8";
-            label8.Size = new Size(22, 24);
-            label8.TabIndex = 7;
-            label8.Text = "0";
+            dashboard_TCust.AutoSize = true;
+            dashboard_TCust.Font = new Font("Arial Rounded MT Bold", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dashboard_TCust.ForeColor = Color.White;
+            dashboard_TCust.Location = new Point(118, 74);
+            dashboard_TCust.Name = "dashboard_TCust";
+            dashboard_TCust.Size = new Size(15, 24);
+            dashboard_TCust.TabIndex = 7;
+            dashboard_TCust.Text = " ";
+            dashboard_TCust.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label9
+            // label
             // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Arial Rounded MT Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.ForeColor = Color.White;
-            label9.Location = new Point(49, 28);
-            label9.Name = "label9";
-            label9.Size = new Size(172, 22);
-            label9.TabIndex = 6;
-            label9.Text = "Total of Customer";
+            label.AutoSize = true;
+            label.Font = new Font("Arial Rounded MT Bold", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label.ForeColor = Color.White;
+            label.Location = new Point(49, 28);
+            label.Name = "label";
+            label.Size = new Size(172, 22);
+            label.TabIndex = 6;
+            label.Text = "Total of Customer";
             // 
             // panel4
             // 
             panel4.BackColor = Color.FromArgb(126, 99, 99);
             panel4.Controls.Add(pictureBox5);
-            panel4.Controls.Add(label8);
-            panel4.Controls.Add(label9);
+            panel4.Controls.Add(dashboard_TCust);
+            panel4.Controls.Add(label);
             panel4.Location = new Point(400, 400);
             panel4.Name = "panel4";
             panel4.Size = new Size(250, 250);
@@ -313,20 +317,20 @@
 
         private Label label1;
         private PictureBox pictureBox2;
-        private Label label3;
+        private Label dashboard_Tin;
         private Panel panel6;
         private Label label2;
         private PictureBox pictureBox4;
-        private Label label6;
+        private Label dashboard_TC;
         private Label label7;
         private Panel panel5;
         private PictureBox pictureBox3;
-        private Label label4;
+        private Label dashboard_Ttin;
         private Label label5;
         private Panel panel3;
         private PictureBox pictureBox5;
-        private Label label8;
-        private Label label9;
+        private Label dashboard_TCust;
+        private Label label;
         private Panel panel4;
         private PictureBox pictureBox1;
         private Panel panel1;

@@ -64,3 +64,7 @@ CREATE TABLE orders (
 
 ALTER TABLE orders ADD qty INT NULL
 SELECT * FROM orders
+
+SELECT SUM(total_price) FROM customers WHERE date ='2024-04-09'
+
+SELECT username FROM users WHERE username = 'kendyluu810' AND role = 'cashier'

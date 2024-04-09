@@ -1,23 +1,65 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace CafeShopManagement
 {
     public partial class CashierMainForm : Form
     {
-        private CashierOrderForm cashierOrderForm;
+        static string conn = ConfigurationManager.ConnectionStrings["connectData"].ConnectionString;
+        SqlConnection cn = new SqlConnection(conn);
+
+        private DashboardForm dashboardForm;
         public CashierMainForm()
         {
             InitializeComponent();
-            cashierOrderForm = new CashierOrderForm();
-                ShowFormInPanel(cashierOrderForm);
+            displayUser();
+            dashboardForm = new DashboardForm();
+            ShowFormInPanel(dashboardForm);
+        }
+
+        public void displayUser()
+        {
+            if (cn.State == ConnectionState.Closed)
+            {
+                try
+                {
+                    cn.Open();
+                    string selectData = "SELECT username FROM users WHERE role = @role AND status = @status";
+
+                    using (SqlCommand cm = new SqlCommand(selectData, cn))
+                    {
+                        cm.Parameters.AddWithValue("@role", "Cashier");
+                        cm.Parameters.AddWithValue("@status", "Active");
+
+                        using (SqlDataReader rd = cm.ExecuteReader())
+                        {
+                            if (rd.Read())
+                            {
+                                string retrievedUsername = rd["username"].ToString();
+                                CashierMainForm_User.Text = retrievedUsername;
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Failed Connection: " + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                finally
+                {
+                    cn.Close();
+                }
+            }
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -26,7 +68,7 @@ namespace CafeShopManagement
             if (result == DialogResult.Yes)
             {
                 Application.Exit();
-                
+
             }
         }
 
@@ -53,7 +95,51 @@ namespace CafeShopManagement
 
         private void btnOrder_Click(object sender, EventArgs e)
         {
-            ShowFormInPanel(cashierOrderForm);
+            CashierOrderForm orderForm = new CashierOrderForm();
+            ShowFormInPanel(orderForm);
+
+            CashierOrderForm cof = orderForm as CashierOrderForm;
+
+            if (cof != null)
+            {
+                cof.refreshData();
+            }
+        }
+
+        private void btnDashboard_Click(object sender, EventArgs e)
+        {
+            ShowFormInPanel(dashboardForm);
+            DashboardForm adForm = dashboardForm as DashboardForm;
+
+            if (adForm != null)
+            {
+                adForm.refreshData();
+            }
+        }
+
+        private void btnProduct_Click(object sender, EventArgs e)
+        {
+            AdminAddProducts adminAddProducts = new AdminAddProducts();
+            ShowFormInPanel(adminAddProducts);
+
+            AdminAddProducts aaProduct = adminAddProducts as AdminAddProducts;
+
+            if (aaProduct != null)
+            {
+                aaProduct.refreshData();
+            }
+        }
+
+        private void btnCustomer_Click(object sender, EventArgs e)
+        {
+            CashierCustomerForm customerForm = new CashierCustomerForm();
+            ShowFormInPanel(customerForm);
+            CashierCustomerForm cf = customerForm as CashierCustomerForm;
+
+            if (cf != null)
+            {
+                cf.refreshData();
+            }
         }
     }
 }
