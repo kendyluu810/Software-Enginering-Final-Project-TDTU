@@ -92,7 +92,7 @@ namespace CafeShopManagement
                                     }
                                     else if (userRole == "Cashier")
                                     {
-                                        CashierMainForm cashierMainForm = new CashierMainForm();
+                                        CashierMainForm cashierMainForm = new CashierMainForm(tbUser.Text.Trim());
                                         cashierMainForm.Show();
 
                                         this.Hide();

@@ -18,14 +18,19 @@ namespace CafeShopManagement
         static string conn = ConfigurationManager.ConnectionStrings["connectData"].ConnectionString;
         SqlConnection cn = new SqlConnection(conn);
 
+
         private DashboardForm dashboardForm;
-        public CashierMainForm()
+        private string loggedInUsername;
+
+        public CashierMainForm(string username)
         {
             InitializeComponent();
+            loggedInUsername = username;
             displayUser();
             dashboardForm = new DashboardForm();
             ShowFormInPanel(dashboardForm);
         }
+
 
         public void displayUser()
         {
@@ -34,10 +39,11 @@ namespace CafeShopManagement
                 try
                 {
                     cn.Open();
-                    string selectData = "SELECT username FROM users WHERE role = @role AND status = @status";
+                    string selectData = "SELECT username FROM users WHERE username = @username AND role = @role AND status = @status";
 
                     using (SqlCommand cm = new SqlCommand(selectData, cn))
                     {
+                        cm.Parameters.AddWithValue("@username", loggedInUsername);
                         cm.Parameters.AddWithValue("@role", "Cashier");
                         cm.Parameters.AddWithValue("@status", "Active");
 
