@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegisterForm));
             btnRegister = new Button();
             ckbShowPass = new CheckBox();
             tbPass = new TextBox();
@@ -207,6 +208,7 @@
             Controls.Add(lbSignUp);
             Controls.Add(btnExit);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "RegisterForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "RegisterForm";

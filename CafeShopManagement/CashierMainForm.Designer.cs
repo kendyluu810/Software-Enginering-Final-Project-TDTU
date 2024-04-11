@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CashierMainForm));
             panel1 = new Panel();
             btnProduct = new Button();
             btnCustomer = new Button();
@@ -186,6 +187,7 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "CashierMainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CashierMainForm";
