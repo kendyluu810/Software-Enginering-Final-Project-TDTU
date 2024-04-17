@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CashierMainForm));
             panel1 = new Panel();
-            btnProduct = new Button();
             btnCustomer = new Button();
             btnLogout = new Button();
             btnOrder = new Button();
@@ -47,7 +46,6 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(242, 239, 229);
-            panel1.Controls.Add(btnProduct);
             panel1.Controls.Add(btnCustomer);
             panel1.Controls.Add(btnLogout);
             panel1.Controls.Add(btnOrder);
@@ -61,19 +59,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1440, 70);
             panel1.TabIndex = 1;
-            // 
-            // btnProduct
-            // 
-            btnProduct.FlatStyle = FlatStyle.Flat;
-            btnProduct.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnProduct.ForeColor = Color.FromArgb(126, 99, 99);
-            btnProduct.Location = new Point(482, 16);
-            btnProduct.Name = "btnProduct";
-            btnProduct.Size = new Size(129, 38);
-            btnProduct.TabIndex = 5;
-            btnProduct.Text = "Add Products";
-            btnProduct.UseVisualStyleBackColor = true;
-            btnProduct.Click += btnProduct_Click;
             // 
             // btnCustomer
             // 
@@ -106,7 +91,7 @@
             btnOrder.FlatStyle = FlatStyle.Flat;
             btnOrder.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnOrder.ForeColor = Color.FromArgb(126, 99, 99);
-            btnOrder.Location = new Point(642, 16);
+            btnOrder.Location = new Point(562, 16);
             btnOrder.Name = "btnOrder";
             btnOrder.Size = new Size(129, 38);
             btnOrder.TabIndex = 2;
@@ -208,7 +193,6 @@
         private Button btnDashboard;
         private PictureBox pictureBox1;
         private Label btnExit;
-        private Button btnProduct;
         private Panel panel2;
     }
 }

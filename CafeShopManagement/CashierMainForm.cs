@@ -123,19 +123,6 @@ namespace CafeShopManagement
             }
         }
 
-        private void btnProduct_Click(object sender, EventArgs e)
-        {
-            AdminAddProducts adminAddProducts = new AdminAddProducts();
-            ShowFormInPanel(adminAddProducts);
-
-            AdminAddProducts aaProduct = adminAddProducts as AdminAddProducts;
-
-            if (aaProduct != null)
-            {
-                aaProduct.refreshData();
-            }
-        }
-
         private void btnCustomer_Click(object sender, EventArgs e)
         {
             CashierCustomerForm customerForm = new CashierCustomerForm();

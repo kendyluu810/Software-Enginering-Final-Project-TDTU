@@ -76,8 +76,8 @@ namespace CafeShopManagement
         public void clearFields()
         {
             CashierOrderForm_Type.SelectedIndex = -1;
-            CashierOrderForm_productID.Items.Clear();
-            CashierOrderForm_ProductName.Text = "";
+            CashierOrderForm_ProductName.Items.Clear();
+            CashierOrderForm_productID.Text = "";
             CashierOrderForm_Price.Text = "";
             CashierOrderForm_Quantity.Value = 0;
         }
@@ -121,9 +121,9 @@ namespace CafeShopManagement
 
         private void CashierOrderForm_Type_SelectedIndexChanged(object sender, EventArgs e)
         {
-            CashierOrderForm_productID.SelectedIndex = -1;
-            CashierOrderForm_productID.Items.Clear();
-            CashierOrderForm_ProductName.Text = "";
+            CashierOrderForm_ProductName.SelectedIndex = -1;
+            CashierOrderForm_ProductName.Items.Clear();
+            CashierOrderForm_productID.Text = "";
             CashierOrderForm_Price.Text = "";
 
 
@@ -148,9 +148,9 @@ namespace CafeShopManagement
                             {
                                 while (reader.Read())
                                 {
-                                    string value = reader["prod_id"].ToString();
+                                    string value = reader["prod_name"].ToString();
 
-                                    CashierOrderForm_productID.Items.Add(value);
+                                    CashierOrderForm_ProductName.Items.Add(value);
                                 }
                             }
                         }
@@ -164,9 +164,9 @@ namespace CafeShopManagement
 
         }
 
-        private void CashierOrderForm_productID_SelectedIndexChanged(object sender, EventArgs e)
+        private void CashierOrderForm_ProductName_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string selectedValue = CashierOrderForm_productID.SelectedItem as string;
+            string selectedValue = CashierOrderForm_ProductName.SelectedItem as string;
 
             if (selectedValue != null)
             {
@@ -175,7 +175,7 @@ namespace CafeShopManagement
                     using (SqlConnection cn = new SqlConnection(conn))
                     {
                         cn.Open();
-                        string selectData = $"SELECT * FROM products WHERE prod_id = '{selectedValue}' AND prod_status = @status AND date_delete IS NULL";
+                        string selectData = $"SELECT * FROM products WHERE prod_name = '{selectedValue}' AND prod_status = @status AND date_delete IS NULL";
 
                         using (SqlCommand cmd = new SqlCommand(selectData, cn))
                         {
@@ -185,10 +185,10 @@ namespace CafeShopManagement
                             {
                                 while (reader.Read())
                                 {
-                                    string prodName = reader["prod_name"].ToString();
+                                    string prodID = reader["prod_id"].ToString();
                                     string prodPrice = reader["prod_price"].ToString();
 
-                                    CashierOrderForm_ProductName.Text = prodName;
+                                    CashierOrderForm_productID.Text = prodID;
                                     CashierOrderForm_Price.Text = prodPrice;
 
                                 }
@@ -202,7 +202,6 @@ namespace CafeShopManagement
                 }
 
             }
-
         }
 
         public void GenerateID()
@@ -243,8 +242,8 @@ namespace CafeShopManagement
         {
             GenerateID();
 
-            if (CashierOrderForm_productID.SelectedIndex == -1 || CashierOrderForm_productID.SelectedIndex == -1
-                || CashierOrderForm_ProductName.Text == "" || CashierOrderForm_Quantity.Value == 0
+            if (CashierOrderForm_Type.SelectedIndex == -1 || CashierOrderForm_ProductName.SelectedIndex == -1
+                || CashierOrderForm_productID.Text == "" || CashierOrderForm_Quantity.Value == 0
                 || CashierOrderForm_productID.Text == "")
             {
                 MessageBox.Show("Please select the product first", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -257,11 +256,11 @@ namespace CafeShopManagement
                     {
                         cn.Open();
                         float getPrice = 0;
-                        string selectOrder = "SELECT * FROM products WHERE prod_id = @prodID";
+                        string selectOrder = "SELECT * FROM products WHERE prod_name = @prodName";
 
                         using (SqlCommand getOrder = new SqlCommand(selectOrder, cn))
                         {
-                            getOrder.Parameters.AddWithValue("@prodID", CashierOrderForm_productID.Text.Trim());
+                            getOrder.Parameters.AddWithValue("@prodName", CashierOrderForm_ProductName.Text.Trim());
 
                             using (SqlDataReader reader = getOrder.ExecuteReader())
                             {
@@ -451,7 +450,7 @@ namespace CafeShopManagement
             count++;
             y += tableMargin;
 
-            string[] header = { "CID", "ProdID", "ProdName", "ProdType", "Qty", "Price" };
+            string[] header = { "ID", "CID", "ProdID", "ProdName", "ProdType", "Qty", "Price" };
 
             for (int i = 0; i < header.Length; i++)
             {
@@ -554,5 +553,13 @@ namespace CafeShopManagement
             DataGridViewRow row = CashierOrderForm_orderTable.Rows[e.RowIndex];
             getOrderID = (int)row.Cells[0].Value;
         }
+
+
+        private void CashierOrderForm_ProductName_KeyUp(object sender, KeyEventArgs e)
+        {
+            
+        }
+
+       
     }
 }

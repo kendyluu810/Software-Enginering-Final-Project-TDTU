@@ -35,6 +35,7 @@
             CashierOrderForm_menuTable = new DataGridView();
             label1 = new Label();
             panelLD = new Panel();
+            CashierOrderForm_ProductName = new ComboBox();
             CashierOrderForm_Clearbtn = new Button();
             CashierOrderForm_Removebtn = new Button();
             CashierOrderForm_Addbtn = new Button();
@@ -42,9 +43,8 @@
             label8 = new Label();
             label6 = new Label();
             CashierOrderForm_Quantity = new NumericUpDown();
-            CashierOrderForm_ProductName = new Label();
+            CashierOrderForm_productID = new Label();
             label3 = new Label();
-            CashierOrderForm_productID = new ComboBox();
             label2 = new Label();
             CashierOrderForm_Type = new ComboBox();
             label4 = new Label();
@@ -113,6 +113,7 @@
             // 
             // panelLD
             // 
+            panelLD.Controls.Add(CashierOrderForm_ProductName);
             panelLD.Controls.Add(CashierOrderForm_Clearbtn);
             panelLD.Controls.Add(CashierOrderForm_Removebtn);
             panelLD.Controls.Add(CashierOrderForm_Addbtn);
@@ -120,9 +121,8 @@
             panelLD.Controls.Add(label8);
             panelLD.Controls.Add(label6);
             panelLD.Controls.Add(CashierOrderForm_Quantity);
-            panelLD.Controls.Add(CashierOrderForm_ProductName);
-            panelLD.Controls.Add(label3);
             panelLD.Controls.Add(CashierOrderForm_productID);
+            panelLD.Controls.Add(label3);
             panelLD.Controls.Add(label2);
             panelLD.Controls.Add(CashierOrderForm_Type);
             panelLD.Controls.Add(label4);
@@ -130,6 +130,16 @@
             panelLD.Name = "panelLD";
             panelLD.Size = new Size(900, 325);
             panelLD.TabIndex = 1;
+            // 
+            // CashierOrderForm_ProductName
+            // 
+            CashierOrderForm_ProductName.Font = new Font("Arial Rounded MT Bold", 12F);
+            CashierOrderForm_ProductName.FormattingEnabled = true;
+            CashierOrderForm_ProductName.Location = new Point(204, 97);
+            CashierOrderForm_ProductName.Name = "CashierOrderForm_ProductName";
+            CashierOrderForm_ProductName.Size = new Size(192, 26);
+            CashierOrderForm_ProductName.TabIndex = 22;
+            CashierOrderForm_ProductName.SelectedIndexChanged += CashierOrderForm_ProductName_SelectedIndexChanged;
             // 
             // CashierOrderForm_Clearbtn
             // 
@@ -214,16 +224,16 @@
             CashierOrderForm_Quantity.Size = new Size(192, 26);
             CashierOrderForm_Quantity.TabIndex = 15;
             // 
-            // CashierOrderForm_ProductName
+            // CashierOrderForm_productID
             // 
-            CashierOrderForm_ProductName.AutoSize = true;
-            CashierOrderForm_ProductName.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            CashierOrderForm_ProductName.ForeColor = Color.FromArgb(126, 99, 99);
-            CashierOrderForm_ProductName.Location = new Point(204, 97);
-            CashierOrderForm_ProductName.Name = "CashierOrderForm_ProductName";
-            CashierOrderForm_ProductName.Size = new Size(12, 18);
-            CashierOrderForm_ProductName.TabIndex = 14;
-            CashierOrderForm_ProductName.Text = " ";
+            CashierOrderForm_productID.AutoSize = true;
+            CashierOrderForm_productID.Font = new Font("Arial Rounded MT Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            CashierOrderForm_productID.ForeColor = Color.FromArgb(126, 99, 99);
+            CashierOrderForm_productID.Location = new Point(638, 52);
+            CashierOrderForm_productID.Name = "CashierOrderForm_productID";
+            CashierOrderForm_productID.Size = new Size(12, 18);
+            CashierOrderForm_productID.TabIndex = 14;
+            CashierOrderForm_productID.Text = " ";
             // 
             // label3
             // 
@@ -235,16 +245,6 @@
             label3.Size = new Size(127, 18);
             label3.TabIndex = 13;
             label3.Text = "Product Name:";
-            // 
-            // CashierOrderForm_productID
-            // 
-            CashierOrderForm_productID.Font = new Font("Arial Rounded MT Bold", 12F);
-            CashierOrderForm_productID.FormattingEnabled = true;
-            CashierOrderForm_productID.Location = new Point(638, 44);
-            CashierOrderForm_productID.Name = "CashierOrderForm_productID";
-            CashierOrderForm_productID.Size = new Size(192, 26);
-            CashierOrderForm_productID.TabIndex = 12;
-            CashierOrderForm_productID.SelectedIndexChanged += CashierOrderForm_productID_SelectedIndexChanged;
             // 
             // label2
             // 
@@ -460,9 +460,8 @@
         private DataGridView CashierOrderForm_menuTable;
         private Label label6;
         private NumericUpDown CashierOrderForm_Quantity;
-        private Label CashierOrderForm_ProductName;
+        private Label CashierOrderForm_productID;
         private Label label3;
-        private ComboBox CashierOrderForm_productID;
         private Label label2;
         private ComboBox CashierOrderForm_Type;
         private Label label4;
@@ -482,5 +481,6 @@
         private Label label11;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private PrintPreviewDialog printPreviewDialog1;
+        private ComboBox CashierOrderForm_ProductName;
     }
 }
