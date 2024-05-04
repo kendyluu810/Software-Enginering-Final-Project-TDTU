@@ -1,0 +1,30 @@
+D:\Ton Duc Thang university\4th semester\Software Engineering\final\csms\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+D:\Ton Duc Thang university\4th semester\Software Engineering\final\csms\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ton Duc Thang university\4th semester\Software Engineering\final\csms\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\Ton Duc Thang university\4th semester\Software Engineering\final\csms\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\Ton Duc Thang university\4th semester\Software Engineering\final\csms\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\Ton Duc Thang university\4th semester\Software Engineering\final\csms\DAL\bin\Debug\net8.0\DAL.deps.json
+D:\Ton Duc Thang university\4th semester\Software Engineering\final\csms\DAL\bin\Debug\net8.0\DAL.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\final\csms\DAL\bin\Debug\net8.0\DAL.pdb
+D:\Ton Duc Thang university\4th semester\Software Engineering\final\csms\DAL\bin\Debug\net8.0\DTO.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\final\csms\DAL\bin\Debug\net8.0\DTO.pdb
+D:\Ton Duc Thang university\4th semester\Software Engineering\final\csms\DAL\obj\Debug\net8.0\DAL.csproj.CopyComplete
+D:\Ton Duc Thang university\4th semester\Software Engineering\final\csms\DAL\obj\Debug\net8.0\DAL.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\final\csms\DAL\obj\Debug\net8.0\refint\DAL.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\final\csms\DAL\obj\Debug\net8.0\DAL.pdb
+D:\Ton Duc Thang university\4th semester\Software Engineering\final\csms\DAL\obj\Debug\net8.0\ref\DAL.dll
+C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\bin\Debug\net8.0\DAL.dll
+C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\bin\Debug\net8.0\DAL.pdb
+C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\bin\Debug\net8.0\DTO.dll
+C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\bin\Debug\net8.0\DTO.pdb
+C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\obj\Debug\net8.0\DAL.csproj.CopyComplete
+C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\obj\Debug\net8.0\DAL.dll
+C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\obj\Debug\net8.0\DAL.pdb
+C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\obj\Debug\net8.0\ref\DAL.dll
