@@ -44,3 +44,19 @@ E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\ne
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\refint\DAL.dll
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.pdb
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\ref\DAL.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\CS\Software-Enginering-Final-Project-TDTU\csms\DAL\bin\Debug\net8.0\DAL.deps.json
+D:\Ton Duc Thang university\4th semester\Software Engineering\CS\Software-Enginering-Final-Project-TDTU\csms\DAL\bin\Debug\net8.0\DAL.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\CS\Software-Enginering-Final-Project-TDTU\csms\DAL\bin\Debug\net8.0\DAL.pdb
+D:\Ton Duc Thang university\4th semester\Software Engineering\CS\Software-Enginering-Final-Project-TDTU\csms\DAL\bin\Debug\net8.0\DTO.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\CS\Software-Enginering-Final-Project-TDTU\csms\DAL\bin\Debug\net8.0\DTO.pdb
+D:\Ton Duc Thang university\4th semester\Software Engineering\CS\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+D:\Ton Duc Thang university\4th semester\Software Engineering\CS\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ton Duc Thang university\4th semester\Software Engineering\CS\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\Ton Duc Thang university\4th semester\Software Engineering\CS\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\Ton Duc Thang university\4th semester\Software Engineering\CS\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\Ton Duc Thang university\4th semester\Software Engineering\CS\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+D:\Ton Duc Thang university\4th semester\Software Engineering\CS\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.csproj.CopyComplete
+D:\Ton Duc Thang university\4th semester\Software Engineering\CS\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\CS\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\refint\DAL.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\CS\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.pdb
+D:\Ton Duc Thang university\4th semester\Software Engineering\CS\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\ref\DAL.dll

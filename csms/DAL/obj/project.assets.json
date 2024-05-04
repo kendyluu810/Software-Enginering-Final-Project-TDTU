@@ -486,24 +486,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kendy\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\NGUYEN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SE HK2 2023-2024\\Software-Enginering-Final-Project-TDTU\\csms\\DAL\\DAL.csproj",
+      "projectUniqueName": "D:\\Ton Duc Thang university\\4th semester\\Software Engineering\\CS\\Software-Enginering-Final-Project-TDTU\\csms\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "E:\\SE HK2 2023-2024\\Software-Enginering-Final-Project-TDTU\\csms\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\kendy\\.nuget\\packages\\",
-      "outputPath": "E:\\SE HK2 2023-2024\\Software-Enginering-Final-Project-TDTU\\csms\\DAL\\obj\\",
+      "projectPath": "D:\\Ton Duc Thang university\\4th semester\\Software Engineering\\CS\\Software-Enginering-Final-Project-TDTU\\csms\\DAL\\DAL.csproj",
+      "packagesPath": "C:\\Users\\NGUYEN\\.nuget\\packages\\",
+      "outputPath": "D:\\Ton Duc Thang university\\4th semester\\Software Engineering\\CS\\Software-Enginering-Final-Project-TDTU\\csms\\DAL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\kendy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\NGUYEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -511,15 +506,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\SE HK2 2023-2024\\Software-Enginering-Final-Project-TDTU\\csms\\DTO\\DTO.csproj": {
-              "projectPath": "E:\\SE HK2 2023-2024\\Software-Enginering-Final-Project-TDTU\\csms\\DTO\\DTO.csproj"
+            "D:\\Ton Duc Thang university\\4th semester\\Software Engineering\\CS\\Software-Enginering-Final-Project-TDTU\\csms\\DTO\\DTO.csproj": {
+              "projectPath": "D:\\Ton Duc Thang university\\4th semester\\Software Engineering\\CS\\Software-Enginering-Final-Project-TDTU\\csms\\DTO\\DTO.csproj"
             }
           }
         }
