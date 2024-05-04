@@ -1,5 +1,0 @@
-ID,ProductID,ProductName,Type,Stock,Price,Status,Image,DateInsert,DateUpdate
-1,BK001,Crossaint,Bakes,999,59000,Available,E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\Product_Directory\BK001.jpg,4/4/2024 12:00:00 AM,4/4/2024 12:00:00 AM
-2,BK002,Butter Crossaint,Bakes,100000,62000,Available,E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\Product_Directory\BK002.jpg,4/4/2024 12:00:00 AM,4/4/2024 12:00:00 AM
-4,DR001,Apple Juice,Drink,100,45000,Available,E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\Product_Directory\DR001.jpg,4/7/2024 12:00:00 AM,
-5,BK004,Butter Cookie,Bakes,120,35000,Available,E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\CafeShopManagement\Product_Directory\BK004.jpg,4/14/2024 12:00:00 AM,4/14/2024 12:00:00 AM
