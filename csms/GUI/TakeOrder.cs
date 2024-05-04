@@ -154,7 +154,9 @@ namespace GUI
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-
+            tbProdName.Text = "";
+            tbPrice.Text = "";
+            tbQuantity.Value = 0;
         }
 
 

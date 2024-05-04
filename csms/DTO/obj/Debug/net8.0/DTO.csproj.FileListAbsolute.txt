@@ -20,3 +20,15 @@ C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DTO\obj\Debug\net8.0\DTO.dll
 C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DTO\obj\Debug\net8.0\refint\DTO.dll
 C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DTO\obj\Debug\net8.0\DTO.pdb
 C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DTO\obj\Debug\net8.0\ref\DTO.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DTO\bin\Debug\net8.0\DTO.deps.json
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DTO\bin\Debug\net8.0\DTO.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DTO\bin\Debug\net8.0\DTO.pdb
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DTO\obj\Debug\net8.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DTO\obj\Debug\net8.0\DTO.AssemblyInfoInputs.cache
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DTO\obj\Debug\net8.0\DTO.AssemblyInfo.cs
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DTO\obj\Debug\net8.0\DTO.csproj.CoreCompileInputs.cache
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DTO\obj\Debug\net8.0\DTO.sourcelink.json
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DTO\obj\Debug\net8.0\DTO.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DTO\obj\Debug\net8.0\refint\DTO.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DTO\obj\Debug\net8.0\DTO.pdb
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DTO\obj\Debug\net8.0\ref\DTO.dll
