@@ -42,6 +42,7 @@
             btnMembership = new Button();
             btnProduct = new Button();
             btnStaff = new Button();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             navbar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Logout).BeginInit();
@@ -51,10 +52,9 @@
             // 
             mainboard.BackColor = Color.FromArgb(242, 239, 229);
             mainboard.ForeColor = Color.Turquoise;
-            mainboard.Location = new Point(0, 63);
-            mainboard.Margin = new Padding(3, 2, 3, 2);
+            mainboard.Location = new Point(0, 84);
             mainboard.Name = "mainboard";
-            mainboard.Size = new Size(878, 500);
+            mainboard.Size = new Size(1003, 605);
             mainboard.TabIndex = 0;
             mainboard.Paint += mainboard_Paint;
             // 
@@ -73,27 +73,25 @@
             navbar.Controls.Add(btnProduct);
             navbar.Controls.Add(btnStaff);
             navbar.Location = new Point(0, 0);
-            navbar.Margin = new Padding(3, 2, 3, 2);
             navbar.Name = "navbar";
-            navbar.Size = new Size(878, 66);
+            navbar.Size = new Size(1003, 88);
             navbar.TabIndex = 1;
             // 
             // button2
             // 
-            button2.Location = new Point(624, 9);
-            button2.Margin = new Padding(3, 2, 3, 2);
+            button2.Location = new Point(728, 12);
             button2.Name = "button2";
-            button2.Size = new Size(88, 38);
+            button2.Size = new Size(100, 51);
             button2.TabIndex = 6;
             button2.Text = "Receipt";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // btnDashboard
             // 
-            btnDashboard.Location = new Point(160, 9);
-            btnDashboard.Margin = new Padding(3, 2, 3, 2);
+            btnDashboard.Location = new Point(198, 12);
             btnDashboard.Name = "btnDashboard";
-            btnDashboard.Size = new Size(88, 38);
+            btnDashboard.Size = new Size(100, 51);
             btnDashboard.TabIndex = 1;
             btnDashboard.Text = "Home";
             btnDashboard.UseVisualStyleBackColor = true;
@@ -101,10 +99,9 @@
             // 
             // button1
             // 
-            button1.Location = new Point(531, 9);
-            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Location = new Point(622, 12);
             button1.Name = "button1";
-            button1.Size = new Size(88, 38);
+            button1.Size = new Size(100, 51);
             button1.TabIndex = 5;
             button1.Text = "Coupon";
             button1.UseVisualStyleBackColor = true;
@@ -113,10 +110,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(0, 3);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Location = new Point(0, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(146, 72);
+            pictureBox1.Size = new Size(222, 96);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -125,10 +121,9 @@
             // 
             btnExit.BackColor = Color.White;
             btnExit.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnExit.Location = new Point(843, 3);
-            btnExit.Margin = new Padding(3, 2, 3, 2);
+            btnExit.Location = new Point(963, 4);
             btnExit.Name = "btnExit";
-            btnExit.Size = new Size(32, 22);
+            btnExit.Size = new Size(37, 29);
             btnExit.TabIndex = 0;
             btnExit.Text = "X";
             btnExit.UseVisualStyleBackColor = false;
@@ -137,19 +132,18 @@
             // label_username
             // 
             label_username.AutoSize = true;
-            label_username.Location = new Point(790, 44);
+            label_username.Location = new Point(849, 33);
             label_username.Name = "label_username";
-            label_username.Size = new Size(38, 15);
+            label_username.Size = new Size(50, 20);
             label_username.TabIndex = 0;
             label_username.Text = "label1";
             // 
             // Logout
             // 
             Logout.Image = (Image)resources.GetObject("Logout.Image");
-            Logout.Location = new Point(842, 35);
-            Logout.Margin = new Padding(3, 2, 3, 2);
+            Logout.Location = new Point(966, 47);
             Logout.Name = "Logout";
-            Logout.Size = new Size(22, 23);
+            Logout.Size = new Size(25, 31);
             Logout.SizeMode = PictureBoxSizeMode.Zoom;
             Logout.TabIndex = 1;
             Logout.TabStop = false;
@@ -159,18 +153,17 @@
             // 
             label2.AutoSize = true;
             label2.ForeColor = SystemColors.ActiveCaptionText;
-            label2.Location = new Point(724, 44);
+            label2.Location = new Point(849, 13);
             label2.Name = "label2";
-            label2.Size = new Size(63, 15);
+            label2.Size = new Size(78, 20);
             label2.TabIndex = 0;
             label2.Text = "Welcome, ";
             // 
             // btnMembership
             // 
-            btnMembership.Location = new Point(439, 9);
-            btnMembership.Margin = new Padding(3, 2, 3, 2);
+            btnMembership.Location = new Point(516, 12);
             btnMembership.Name = "btnMembership";
-            btnMembership.Size = new Size(88, 38);
+            btnMembership.Size = new Size(100, 51);
             btnMembership.TabIndex = 4;
             btnMembership.Text = "Membership";
             btnMembership.UseVisualStyleBackColor = true;
@@ -178,10 +171,9 @@
             // 
             // btnProduct
             // 
-            btnProduct.Location = new Point(346, 9);
-            btnProduct.Margin = new Padding(3, 2, 3, 2);
+            btnProduct.Location = new Point(410, 12);
             btnProduct.Name = "btnProduct";
-            btnProduct.Size = new Size(88, 38);
+            btnProduct.Size = new Size(100, 51);
             btnProduct.TabIndex = 3;
             btnProduct.Text = "Product";
             btnProduct.UseVisualStyleBackColor = true;
@@ -189,10 +181,9 @@
             // 
             // btnStaff
             // 
-            btnStaff.Location = new Point(253, 9);
-            btnStaff.Margin = new Padding(3, 2, 3, 2);
+            btnStaff.Location = new Point(304, 12);
             btnStaff.Name = "btnStaff";
-            btnStaff.Size = new Size(88, 38);
+            btnStaff.Size = new Size(100, 51);
             btnStaff.TabIndex = 2;
             btnStaff.Text = "Staff";
             btnStaff.UseVisualStyleBackColor = true;
@@ -200,13 +191,12 @@
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(878, 566);
+            ClientSize = new Size(1003, 685);
             Controls.Add(mainboard);
             Controls.Add(navbar);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(3, 2, 3, 2);
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "MainForm";
@@ -232,5 +222,6 @@
         private Button btnExit;
         private Button button1;
         private Button button2;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

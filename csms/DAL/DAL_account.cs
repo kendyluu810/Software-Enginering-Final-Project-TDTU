@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Net.Sockets;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,7 +31,7 @@ namespace DAL
 
         public void updateQuery()
         {
-            string query = "update ACCOUNT set  password = '"+p.password+"'where staffid = '"+p.staffid+"'";
+            string query = $"update ACCOUNT set  password = '{p.password}', status = '{p.active}' where staffid = '"+p.staffid+"'";
             Connection.selectQuery(query);
         }
 
@@ -59,23 +60,37 @@ namespace DAL
         {
             string selectAccount = "SELECT STAFFID FROM ACCOUNT WHERE username = '" + username + "'";
             DataTable selectedAccount = Connection.selectQuery(selectAccount); //selectQuery return datatable
-            return selectedAccount.Rows[0][0].ToString();
+            if(selectedAccount == null)
+            {
+                return "";
+            }
+            else
+            {
+                return selectedAccount.Rows[0][0].ToString();
+            }
+           
         }
         public string GetUserRole(string username)
         {
             string staffid = getStaffid(username);
             string selectRole = "SELECT * FROM Staff WHERE staffid = '" + staffid + "'";
 
-            string role = Connection.selectQuery(selectRole).Rows[0][3].ToString();
+            DataTable dt = Connection.selectQuery(selectRole);
 
-            if (role != null)
+            if (dt != null)
             {
-                return role; 
+                return dt.Rows[0][3].ToString(); 
             }
             else
             {
                 return null; 
             }
+        }
+
+        public string getUserStatus(string tbUser)
+        {
+            string s = $"select status from account where username = '{tbUser}'";
+            return Connection.selectQuery(s).Rows[0][0].ToString();
         }
     }
 }

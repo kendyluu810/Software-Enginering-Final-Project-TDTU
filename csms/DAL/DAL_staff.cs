@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -64,6 +65,29 @@ namespace DAL
         {
             string s = $"select staffid from account where username = '{username}'";
             return Connection.selectQuery(s).Rows[0][0].ToString();
+        }
+
+        public int getTotalStaff()
+        {
+            string s = "SELECT COUNT(*) FROM staff";
+            DataTable dt = Connection.selectQuery(s);
+
+            if (dt.Rows.Count > 0 && dt.Rows[0][0] != DBNull.Value)
+            {
+                return Convert.ToInt32(dt.Rows[0][0]);
+            }
+            else
+            {
+                return 0;
+            }
+        }
+
+        public DataTable GetStaffIds()
+        {
+            DataTable dataTable = new DataTable();
+            string query = "SELECT staffid FROM staff";
+            dataTable = Connection.selectQuery(query);
+            return dataTable;
         }
 
     }

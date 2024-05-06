@@ -44,14 +44,11 @@ namespace DAL
         {
             string s = "select top 1 coupon_id from coupon order by coupon_id desc";
             DataTable dt = Connection.selectQuery(s);
-            if (dt.Rows.Count > 0)
+            if(dt.Rows.Count > 0)
             {
                 return dt.Rows[0][0].ToString();
             }
-            else
-            {
-                return null;
-            }
+            return null;
         }
 
         public DataTable isCouponExist(string id)

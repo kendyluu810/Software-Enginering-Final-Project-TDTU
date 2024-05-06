@@ -73,13 +73,14 @@
             // 
             // btnReceipt
             // 
-            btnReceipt.Location = new Point(314, 9);
+            btnReceipt.Location = new Point(289, 9);
             btnReceipt.Margin = new Padding(3, 2, 3, 2);
             btnReceipt.Name = "btnReceipt";
             btnReceipt.Size = new Size(101, 38);
             btnReceipt.TabIndex = 5;
             btnReceipt.Text = "Receipt";
             btnReceipt.UseVisualStyleBackColor = true;
+            btnReceipt.Click += btnReceipt_Click;
             // 
             // btnExit
             // 
@@ -103,6 +104,7 @@
             label_username.TabIndex = 0;
             label_username.Text = "label1";
             label_username.TextAlign = ContentAlignment.TopRight;
+            label_username.Click += label_username_Click;
             // 
             // Logout
             // 
@@ -139,13 +141,14 @@
             // 
             // btnMem
             // 
-            btnMem.Location = new Point(445, 9);
+            btnMem.Location = new Point(395, 9);
             btnMem.Margin = new Padding(3, 2, 3, 2);
             btnMem.Name = "btnMem";
             btnMem.Size = new Size(101, 38);
             btnMem.TabIndex = 1;
             btnMem.Text = "Membership Customer";
             btnMem.UseVisualStyleBackColor = true;
+            btnMem.Click += btnMem_Click;
             // 
             // pictureBox1
             // 

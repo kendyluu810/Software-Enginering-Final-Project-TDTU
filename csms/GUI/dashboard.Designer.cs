@@ -31,19 +31,19 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dashboard));
             mainboard = new Panel();
             panel4 = new Panel();
-            totalStaff = new Label();
+            totalStaff_tb = new Label();
             pictureBox5 = new PictureBox();
             label5 = new Label();
             panel3 = new Panel();
-            totalCustomer = new Label();
+            totalCustomer_tb = new Label();
             pictureBox4 = new PictureBox();
             label4 = new Label();
             panel2 = new Panel();
-            totalIncome = new Label();
+            totalIncome_tb = new Label();
             pictureBox3 = new PictureBox();
             label3 = new Label();
             panel1 = new Panel();
-            todayIncome = new Label();
+            todayIncome_tb = new Label();
             pictureBox2 = new PictureBox();
             label2 = new Label();
             label1 = new Label();
@@ -73,29 +73,31 @@
             mainboard.Location = new Point(0, -1);
             mainboard.Margin = new Padding(3, 2, 3, 2);
             mainboard.Name = "mainboard";
-            mainboard.Size = new Size(878, 500);
+            mainboard.Size = new Size(878, 454);
             mainboard.TabIndex = 0;
             // 
             // panel4
             // 
             panel4.BackColor = Color.FromArgb(141, 123, 104);
-            panel4.Controls.Add(totalStaff);
+            panel4.Controls.Add(totalStaff_tb);
             panel4.Controls.Add(pictureBox5);
             panel4.Controls.Add(label5);
-            panel4.Location = new Point(444, 270);
+            panel4.Location = new Point(448, 242);
             panel4.Margin = new Padding(3, 2, 3, 2);
             panel4.Name = "panel4";
             panel4.Size = new Size(182, 121);
             panel4.TabIndex = 5;
             // 
-            // totalStaff
+            // totalStaff_tb
             // 
-            totalStaff.AutoSize = true;
-            totalStaff.Location = new Point(61, 46);
-            totalStaff.Name = "totalStaff";
-            totalStaff.Size = new Size(28, 15);
-            totalStaff.TabIndex = 11;
-            totalStaff.Text = "       ";
+            totalStaff_tb.AutoSize = true;
+            totalStaff_tb.Font = new Font("Segoe UI", 11.25F);
+            totalStaff_tb.ForeColor = Color.White;
+            totalStaff_tb.Location = new Point(61, 46);
+            totalStaff_tb.Name = "totalStaff_tb";
+            totalStaff_tb.Size = new Size(37, 20);
+            totalStaff_tb.TabIndex = 11;
+            totalStaff_tb.Text = "       ";
             // 
             // pictureBox5
             // 
@@ -123,23 +125,25 @@
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(141, 123, 104);
-            panel3.Controls.Add(totalCustomer);
+            panel3.Controls.Add(totalCustomer_tb);
             panel3.Controls.Add(pictureBox4);
             panel3.Controls.Add(label4);
-            panel3.Location = new Point(644, 270);
+            panel3.Location = new Point(640, 242);
             panel3.Margin = new Padding(3, 2, 3, 2);
             panel3.Name = "panel3";
             panel3.Size = new Size(182, 121);
             panel3.TabIndex = 4;
             // 
-            // totalCustomer
+            // totalCustomer_tb
             // 
-            totalCustomer.AutoSize = true;
-            totalCustomer.Location = new Point(63, 46);
-            totalCustomer.Name = "totalCustomer";
-            totalCustomer.Size = new Size(28, 15);
-            totalCustomer.TabIndex = 10;
-            totalCustomer.Text = "       ";
+            totalCustomer_tb.AutoSize = true;
+            totalCustomer_tb.Font = new Font("Segoe UI", 11.25F);
+            totalCustomer_tb.ForeColor = Color.White;
+            totalCustomer_tb.Location = new Point(63, 42);
+            totalCustomer_tb.Name = "totalCustomer_tb";
+            totalCustomer_tb.Size = new Size(37, 20);
+            totalCustomer_tb.TabIndex = 10;
+            totalCustomer_tb.Text = "       ";
             // 
             // pictureBox4
             // 
@@ -167,23 +171,25 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(141, 123, 104);
-            panel2.Controls.Add(totalIncome);
+            panel2.Controls.Add(totalIncome_tb);
             panel2.Controls.Add(pictureBox3);
             panel2.Controls.Add(label3);
-            panel2.Location = new Point(644, 100);
+            panel2.Location = new Point(640, 100);
             panel2.Margin = new Padding(3, 2, 3, 2);
             panel2.Name = "panel2";
             panel2.Size = new Size(182, 121);
             panel2.TabIndex = 3;
             // 
-            // totalIncome
+            // totalIncome_tb
             // 
-            totalIncome.AutoSize = true;
-            totalIncome.Location = new Point(63, 42);
-            totalIncome.Name = "totalIncome";
-            totalIncome.Size = new Size(28, 15);
-            totalIncome.TabIndex = 9;
-            totalIncome.Text = "       ";
+            totalIncome_tb.AutoSize = true;
+            totalIncome_tb.Font = new Font("Segoe UI", 11.25F);
+            totalIncome_tb.ForeColor = Color.White;
+            totalIncome_tb.Location = new Point(63, 42);
+            totalIncome_tb.Name = "totalIncome_tb";
+            totalIncome_tb.Size = new Size(37, 20);
+            totalIncome_tb.TabIndex = 9;
+            totalIncome_tb.Text = "       ";
             // 
             // pictureBox3
             // 
@@ -203,30 +209,32 @@
             label3.ForeColor = SystemColors.ButtonHighlight;
             label3.Location = new Point(38, 13);
             label3.Name = "label3";
-            label3.Size = new Size(93, 16);
+            label3.Size = new Size(115, 16);
             label3.TabIndex = 7;
-            label3.Text = "Total income";
+            label3.Text = "Total income ($)";
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(141, 123, 104);
-            panel1.Controls.Add(todayIncome);
+            panel1.Controls.Add(todayIncome_tb);
             panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(label2);
-            panel1.Location = new Point(444, 100);
+            panel1.Location = new Point(448, 100);
             panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
             panel1.Size = new Size(182, 121);
             panel1.TabIndex = 2;
             // 
-            // todayIncome
+            // todayIncome_tb
             // 
-            todayIncome.AutoSize = true;
-            todayIncome.Location = new Point(61, 42);
-            todayIncome.Name = "todayIncome";
-            todayIncome.Size = new Size(28, 15);
-            todayIncome.TabIndex = 8;
-            todayIncome.Text = "       ";
+            todayIncome_tb.AutoSize = true;
+            todayIncome_tb.Font = new Font("Segoe UI", 11.25F);
+            todayIncome_tb.ForeColor = Color.White;
+            todayIncome_tb.Location = new Point(61, 42);
+            todayIncome_tb.Name = "todayIncome_tb";
+            todayIncome_tb.Size = new Size(37, 20);
+            todayIncome_tb.TabIndex = 8;
+            todayIncome_tb.Text = "       ";
             // 
             // pictureBox2
             // 
@@ -246,9 +254,9 @@
             label2.ForeColor = SystemColors.ButtonHighlight;
             label2.Location = new Point(33, 13);
             label2.Name = "label2";
-            label2.Size = new Size(112, 16);
+            label2.Size = new Size(134, 16);
             label2.TabIndex = 6;
-            label2.Text = "Today's income";
+            label2.Text = "Today's income ($)";
             label2.Click += label2_Click;
             // 
             // label1
@@ -267,7 +275,7 @@
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(400, 500);
+            pictureBox1.Size = new Size(387, 452);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -276,7 +284,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(878, 500);
+            ClientSize = new Size(878, 454);
             Controls.Add(mainboard);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 2, 3, 2);
@@ -315,13 +323,13 @@
         private Label label5;
         private Label label4;
         private Label label3;
-        private Label totalStaff;
+        private Label totalStaff_tb;
         private PictureBox pictureBox5;
-        private Label totalCustomer;
+        private Label totalCustomer_tb;
         private PictureBox pictureBox4;
-        private Label totalIncome;
+        private Label totalIncome_tb;
         private PictureBox pictureBox3;
-        private Label todayIncome;
         private PictureBox pictureBox2;
+        private Label todayIncome_tb;
     }
 }

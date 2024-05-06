@@ -17,7 +17,6 @@ namespace GUI
         public productManagement()
         {
             InitializeComponent();
-
         }
         private int dk = 0;
 
@@ -72,9 +71,8 @@ namespace GUI
             tbProdID.Text = grd.CurrentRow.Cells[0].Value.ToString();
             tbProdName.Text = grd.CurrentRow.Cells[1].Value.ToString();
             cbType.Text = grd.CurrentRow.Cells[2].Value.ToString();
-            nStock.Text = grd.CurrentRow.Cells[3].Value.ToString();
-            nPrice.Text = grd.CurrentRow.Cells[4].Value.ToString();
-            cbStatus.Text = grd.CurrentRow.Cells[5].Value.ToString();
+            nPrice.Text = grd.CurrentRow.Cells[3].Value.ToString();
+            cbStatus.Text = grd.CurrentRow.Cells[4].Value.ToString();
             ProdIMG.Enabled = false;
             //--img
             string imagePath = grd.CurrentRow.Cells[6].Value.ToString();
@@ -91,7 +89,7 @@ namespace GUI
 
         private void showGRD()
         {
-            BUS_product b = new BUS_product("", "", "", 0, "0", "", "");
+            BUS_product b = new BUS_product("", "", "", "0", "", "");
             grd.DataSource = b.selectQuery();
         }
 
@@ -118,7 +116,7 @@ namespace GUI
         {
             clearFields();
             btnAdd.Enabled = false;
-            BUS_product b = new BUS_product("", "", "", 0, "0", "", "");
+            BUS_product b = new BUS_product("", "", "", "0", "", "");
             tbProdID.Text = b.auto_generateProdID();
             tbProdID.Enabled = false;
             btnSave.Enabled = true;
@@ -130,12 +128,11 @@ namespace GUI
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            BUS_product b = new BUS_product("", "", "", 0, "0", "", "");
+            BUS_product b = new BUS_product("", "", "", "0", "", "");
 
             string prodname = tbProdName.Text;
 
             string type = cbType.Text;
-            int stock = (int)nStock.Value;
             string price = nPrice.Text.Replace(',', '.');
             string status = cbStatus.Text;
 
@@ -157,7 +154,7 @@ namespace GUI
             {
                 if (dk == 1)
                 { //add product 
-                    BUS_product addProd = new BUS_product(prodID, prodname, type, stock, price, status, img);
+                    BUS_product addProd = new BUS_product(prodID, prodname, type, price, status, img);
                     addProd.addQuery();
                     MessageBox.Show("Added Successfully!", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -166,7 +163,7 @@ namespace GUI
                 {
 
                     //update product 
-                    BUS_product updateProd = new BUS_product(tbProdID.Text, prodname, type, stock, price, status, img);
+                    BUS_product updateProd = new BUS_product(tbProdID.Text, prodname, type, price, status, img);
                     updateProd.updateQuery();
                     MessageBox.Show("Update Successfully!", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -216,7 +213,7 @@ namespace GUI
             DialogResult result = MessageBox.Show("Are you sure you want to delete username: " + tbProdName.Text.Trim() + "?", "Confirmation Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
-                BUS_product b = new BUS_product(tbProdID.Text, "", "", 0, "0", "", "");
+                BUS_product b = new BUS_product(tbProdID.Text, "", "", "0", "", "");
                 b.deleteQuery();
                 MessageBox.Show("Delete Successfully!", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -246,29 +243,6 @@ namespace GUI
         {
 
         }
-
-        private void btnUpload_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                OpenFileDialog dialog = new OpenFileDialog();
-                dialog.Filter = "Image Files (*.jpg; *.png)|*.jpg;*.png";
-                string imagePath = "";
-
-
-                if (dialog.ShowDialog() == DialogResult.OK)
-                {
-                    imagePath = dialog.FileName;
-                    ProdIMG.ImageLocation = imagePath;
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex, "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        // export data to csv file
 
         private void ExportToCSV()
         {
@@ -314,7 +288,6 @@ namespace GUI
                 MessageBox.Show("Failed to export data to CSV: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
 
         private void btnExport_Click(object sender, EventArgs e)
         {

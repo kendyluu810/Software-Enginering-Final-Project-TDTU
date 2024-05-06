@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Reflection.Metadata;
 using System.Text;
@@ -66,5 +67,40 @@ namespace DAL
             return Connection.selectQuery(s).Rows[0][0].ToString();
 
         }
+
+        public string getAccu()
+        {
+            string s = "select membership_accumulation from membership where membership_id = '" + m.memid + "'";
+            return Connection.selectQuery(s).Rows[0][0].ToString();
+        }
+
+        public void updateRank(string rank, int discount)
+        {
+            string query = $"update Membership set membership_rank = '{rank}', membership_discount = {discount} where membership_id = '" + m.memid + "'";
+            Connection.selectQuery(query);
+        }
+
+        public void updateAccu(string newAccu)
+        {
+            string query = $"update Membership set membership_accumulation = {newAccu}  where membership_id = '" + m.memid + "'";
+            Connection.selectQuery(query);
+        }
+
+        public int getTotalMembership()
+        {
+            string s = "SELECT COUNT(*) FROM Membership";
+            DataTable dt = Connection.selectQuery(s);
+
+            if (dt.Rows.Count > 0 && dt.Rows[0][0] != DBNull.Value)
+            {
+                return Convert.ToInt32(dt.Rows[0][0]);
+            }
+            else
+            {
+                return 0;
+            }
+        }
+
+        
     }
 }

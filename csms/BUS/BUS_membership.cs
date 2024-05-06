@@ -63,5 +63,34 @@ namespace BUS
         {
             return p.findDiscount(memID);
         }
+
+        public string getAccu()
+        {
+            return p.getAccu();
+        }
+
+        public void checkRank()
+        {
+            float currentAccu = float.Parse(getAccu());
+            if (currentAccu > 500)
+            {
+                p.updateRank("Gold", 10);
+            }
+            else if (currentAccu > 100)
+            {
+                p.updateRank("Silver", 5);
+            }
+        }
+
+        public void updateAccu(string newAccu)
+        {
+            p.updateAccu(newAccu);
+        }
+
+        public int getTotalMembership()
+        {
+            return p.getTotalMembership();
+        }
+
     }
 }

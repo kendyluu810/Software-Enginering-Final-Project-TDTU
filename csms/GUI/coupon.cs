@@ -21,6 +21,12 @@ namespace GUI
         {
             InitializeComponent();
         }
+        public void cbLoading()
+        {
+            SearchCbType.Items.Add("Coffee");
+            SearchCbType.Items.Add("Tea");
+            SearchCbType.Items.Add("Cold Brew");
+        }
 
         internal void refreshData()
         {
@@ -31,7 +37,7 @@ namespace GUI
             }
 
             refreshGRD();
-            //    cbLoading();
+            cbLoading();
         }
 
         private void clearField()
@@ -55,11 +61,14 @@ namespace GUI
         //------data grid view
         public void showGRD()
         {
-            BUS_product b = new BUS_product("", "", "", 0, "0", "", "");
+            BUS_product b = new BUS_product("", "", "", "0", "", "");
             grdProd.DataSource = b.selectProdCoupon();
 
             BUS_coupon c = new BUS_coupon("", "", 0);
             grdCoupon.DataSource = c.selectQuery();
+
+
+
         }
 
 
@@ -127,12 +136,12 @@ namespace GUI
         {
 
             BUS_coupon c = new BUS_coupon("", "", 0);
-            BUS_product b = new BUS_product("", "", "", 0, "0", "", "");
+            BUS_product b = new BUS_product("", "", "", "0", "", "");
 
             string id = tbID.Text;
-            string prodID = b.getProdID_by_prodName(tbName.Text) ;
+            string prodID = b.getProdID_by_prodName(tbName.Text);
             int discount = int.Parse(tbDiscount.Text);
-            if(discount > 100)
+            if (discount > 100)
             {
                 MessageBox.Show("Discount must less than 100%", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 tbDiscount.Text = "";
@@ -141,7 +150,7 @@ namespace GUI
 
             }
 
-            if (c.isCouponExist(prodID).Rows.Count > 0) 
+            if (c.isCouponExist(prodID).Rows.Count > 0)
             {
                 MessageBox.Show("This product has coupon already!", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 tbDiscount.Text = "";
@@ -168,7 +177,7 @@ namespace GUI
                 {
 
                     //update product 
-                    BUS_coupon update = new BUS_coupon(id, prodID, discount); 
+                    BUS_coupon update = new BUS_coupon(id, prodID, discount);
                     update.updateQuery();
                     MessageBox.Show("Update Successfully!", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -179,6 +188,17 @@ namespace GUI
             dk = 0;
         }
 
-    
+
+        private void SearchCbType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            BUS_product b = new BUS_product("", "", "", "0", "", "");
+            grdProd.DataSource = b.FilterProductsByType(SearchCbType.SelectedItem?.ToString() ?? "");
+        }
+
+        private void btnShowAll_Click(object sender, EventArgs e)
+        {
+            BUS_product b = new BUS_product("", "", "", "0", "", "");
+            grdProd.DataSource = b.selectQuery();
+        }
     }
 }

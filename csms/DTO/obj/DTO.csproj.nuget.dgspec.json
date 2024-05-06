@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ton Duc Thang university\\4th semester\\Software Engineering\\CS\\Software-Enginering-Final-Project-TDTU\\csms\\DTO\\DTO.csproj": {}
+    "C:\\Users\\kendy\\OneDrive\\Máy tính\\final\\final\\csms\\DTO\\DTO.csproj": {}
   },
   "projects": {
-    "D:\\Ton Duc Thang university\\4th semester\\Software Engineering\\CS\\Software-Enginering-Final-Project-TDTU\\csms\\DTO\\DTO.csproj": {
+    "C:\\Users\\kendy\\OneDrive\\Máy tính\\final\\final\\csms\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ton Duc Thang university\\4th semester\\Software Engineering\\CS\\Software-Enginering-Final-Project-TDTU\\csms\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\kendy\\OneDrive\\Máy tính\\final\\final\\csms\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "D:\\Ton Duc Thang university\\4th semester\\Software Engineering\\CS\\Software-Enginering-Final-Project-TDTU\\csms\\DTO\\DTO.csproj",
-        "packagesPath": "C:\\Users\\NGUYEN\\.nuget\\packages\\",
-        "outputPath": "D:\\Ton Duc Thang university\\4th semester\\Software Engineering\\CS\\Software-Enginering-Final-Project-TDTU\\csms\\DTO\\obj\\",
+        "projectPath": "C:\\Users\\kendy\\OneDrive\\Máy tính\\final\\final\\csms\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\kendy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kendy\\OneDrive\\Máy tính\\final\\final\\csms\\DTO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\NGUYEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kendy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

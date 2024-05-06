@@ -1,5 +1,4 @@
-﻿using BUS;
-using iTextSharp.text.pdf;
+﻿using iTextSharp.text.pdf;
 using iTextSharp.text;
 using System;
 using System.Collections;
@@ -11,11 +10,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BUS;
 
 namespace GUI
 {
     public partial class membership : Form
     {
+        private BUS_membership bus_membership;
         public membership()
         {
             InitializeComponent();
@@ -88,6 +89,7 @@ namespace GUI
 
         private void grd_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            
             tbID.Text = grd.CurrentRow.Cells[0].Value.ToString();
             tbName.Text = grd.CurrentRow.Cells[1].Value.ToString();
             tbPhonenumber.Text = grd.CurrentRow.Cells[2].Value.ToString();
@@ -95,11 +97,13 @@ namespace GUI
             tbDiscount.Text = grd.CurrentRow.Cells[4].Value.ToString();
             tbAccu.Text = grd.CurrentRow.Cells[5].Value.ToString();
 
+           
+            btnDel.Enabled = false;
+            btnEdit.Enabled = false;
             gb1.Enabled = false;
             btnAdd.Enabled = true;
             btnClear.Enabled = false;
-            btnDel.Enabled = true;
-            btnEdit.Enabled = true;
+      
             btnSave.Enabled = false;
         }
 

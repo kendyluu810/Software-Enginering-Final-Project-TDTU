@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class TakeOrder
+    partial class takeOrder
     {
         /// <summary>
         /// Required designer variable.
@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             mainboard = new Panel();
+            btnCancel = new Button();
             tbMem = new TextBox();
             panel_totalMoney = new Panel();
             totalmoney = new Label();
@@ -47,7 +48,7 @@
             label14 = new Label();
             btnClear = new Button();
             cbPayment = new ComboBox();
-            btnPrint = new Button();
+            btnPDF = new Button();
             btnPay = new Button();
             btnDel = new Button();
             btnAdd = new Button();
@@ -76,6 +77,7 @@
             // mainboard
             // 
             mainboard.BackColor = Color.FromArgb(242, 239, 229);
+            mainboard.Controls.Add(btnCancel);
             mainboard.Controls.Add(tbMem);
             mainboard.Controls.Add(panel_totalMoney);
             mainboard.Controls.Add(btnCreate_order);
@@ -87,7 +89,7 @@
             mainboard.Controls.Add(label14);
             mainboard.Controls.Add(btnClear);
             mainboard.Controls.Add(cbPayment);
-            mainboard.Controls.Add(btnPrint);
+            mainboard.Controls.Add(btnPDF);
             mainboard.Controls.Add(btnPay);
             mainboard.Controls.Add(btnDel);
             mainboard.Controls.Add(btnAdd);
@@ -101,6 +103,17 @@
             mainboard.Name = "mainboard";
             mainboard.Size = new Size(878, 454);
             mainboard.TabIndex = 0;
+            // 
+            // btnCancel
+            // 
+            btnCancel.Location = new Point(186, 416);
+            btnCancel.Margin = new Padding(3, 2, 3, 2);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new Size(82, 22);
+            btnCancel.TabIndex = 56;
+            btnCancel.Text = "Cancel";
+            btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // tbMem
             // 
@@ -232,6 +245,7 @@
             SearchTbName.Name = "SearchTbName";
             SearchTbName.Size = new Size(233, 21);
             SearchTbName.TabIndex = 43;
+            SearchTbName.KeyDown += SearchTbName_KeyDown;
             // 
             // label8
             // 
@@ -259,13 +273,13 @@
             label14.Font = new Font("Arial Rounded MT Bold", 9F);
             label14.Location = new Point(600, 361);
             label14.Name = "label14";
-            label14.Size = new Size(138, 14);
+            label14.Size = new Size(164, 14);
             label14.TabIndex = 49;
-            label14.Text = "Membership customer";
+            label14.Text = "Membership phonenumber";
             // 
             // btnClear
             // 
-            btnClear.Location = new Point(98, 416);
+            btnClear.Location = new Point(684, 257);
             btnClear.Margin = new Padding(3, 2, 3, 2);
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(82, 22);
@@ -283,15 +297,16 @@
             cbPayment.Size = new Size(154, 23);
             cbPayment.TabIndex = 33;
             // 
-            // btnPrint
+            // btnPDF
             // 
-            btnPrint.Location = new Point(186, 416);
-            btnPrint.Margin = new Padding(3, 2, 3, 2);
-            btnPrint.Name = "btnPrint";
-            btnPrint.Size = new Size(82, 22);
-            btnPrint.TabIndex = 28;
-            btnPrint.Text = "Print";
-            btnPrint.UseVisualStyleBackColor = true;
+            btnPDF.Location = new Point(98, 416);
+            btnPDF.Margin = new Padding(3, 2, 3, 2);
+            btnPDF.Name = "btnPDF";
+            btnPDF.Size = new Size(82, 22);
+            btnPDF.TabIndex = 28;
+            btnPDF.Text = "Print";
+            btnPDF.UseVisualStyleBackColor = true;
+            btnPDF.Click += btnPDF_Click;
             // 
             // btnPay
             // 
@@ -309,13 +324,14 @@
             // 
             // btnDel
             // 
-            btnDel.Location = new Point(773, 264);
+            btnDel.Location = new Point(772, 257);
             btnDel.Margin = new Padding(3, 2, 3, 2);
             btnDel.Name = "btnDel";
             btnDel.Size = new Size(82, 22);
             btnDel.TabIndex = 26;
             btnDel.Text = "Remove";
             btnDel.UseVisualStyleBackColor = true;
+            btnDel.Click += btnDel_Click;
             // 
             // btnAdd
             // 
@@ -444,7 +460,7 @@
             grdOrder.TabIndex = 30;
             grdOrder.CellClick += grdOrder_CellClick;
             // 
-            // TakeOrder
+            // takeOrder
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -452,7 +468,7 @@
             Controls.Add(mainboard);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 2, 3, 2);
-            Name = "TakeOrder";
+            Name = "takeOrder";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "dashboard";
             mainboard.ResumeLayout(false);
@@ -482,7 +498,7 @@
         private PictureBox ProdIMG;
         private Button btnPay;
         private ComboBox cbPayment;
-        private Button btnPrint;
+        private Button btnPDF;
         private Button btnDel;
         private Button btnAdd;
         private Button btnClear;
@@ -515,5 +531,6 @@
         private Label label4;
         private Label label6;
         private TextBox tbMem;
+        private Button btnCancel;
     }
 }

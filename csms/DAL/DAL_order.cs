@@ -46,13 +46,17 @@ namespace DAL
             Connection.selectQuery(query);
         }
 
+        public void deleteQueryAll()
+        {
+            string query = $"delete from order_dt where receipt_id = '{o.receiptid}'";
+            Connection.selectQuery(query);
+        }
+
         public DataTable selectQuery()
         {
             string query = $"SELECT product.prod_name as name, order_dt.product_quantity as quantity, order_dt.product_newPrice as price \r\nFROM product\r\nJOIN order_dt ON product.prod_id = order_dt.prod_id\r\nWHERE order_dt.receipt_id = '{o.receiptid}';\r\n";
             return Connection.selectQuery(query);
         }
-
-
 
     }
 }

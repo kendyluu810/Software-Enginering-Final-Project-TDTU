@@ -47,7 +47,9 @@ namespace BUS
             return s.GetUserRole(username);
         }
 
-
-
+        public string getUserStatus(string tbUser)
+        {
+            return s.getUserStatus(tbUser);
+        }
     }
 }

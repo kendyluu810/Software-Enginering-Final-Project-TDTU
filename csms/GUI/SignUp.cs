@@ -86,7 +86,7 @@ namespace GUI
                 string gender = cbGender.SelectedIndex != -1 ? cbGender.SelectedItem.ToString() : "";
                 string DOB = dob.Value.ToString("yyyy-MM-dd");
 
-                string active = "Active";
+                string active = "Deactive";
                 string phone = tbPhoneNumber.Text;
                 string username = tbUsername.Text;
                 string password = tbCP.Text;

@@ -129,5 +129,18 @@ namespace GUI
                 mem.refreshData();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            receipt m = new receipt();
+            ShowFormInPanel(m);
+
+            receipt mem = m as receipt;
+
+            if (mem != null)
+            {
+                mem.refreshData();
+            }
+        }
     }
 }

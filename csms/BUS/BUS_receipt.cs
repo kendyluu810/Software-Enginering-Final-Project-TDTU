@@ -53,5 +53,20 @@ namespace BUS
                 return "R00001";
             }
         }
+
+        public decimal GetTodayIncome()
+        {
+            return p.GetTodayIncome();
+        }
+
+        public decimal GetTotalIncome()
+        {
+            return p.GetTotalIncome();
+        }
+
+        public DataTable SearchReceiptsByStaffAndDate(string staffId, DateTime date)
+        {
+            return p.GetReceiptByStaffAndDate(staffId, date);
+        }
     }
 }

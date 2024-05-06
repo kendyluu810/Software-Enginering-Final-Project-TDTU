@@ -12,9 +12,9 @@ namespace BUS
     public class BUS_product
     {
         DAL_product p;
-        public BUS_product(string prodID, string ProdName, string prodType, int prodStock, string prodPrice, String prodStatus, String prodImg)
+        public BUS_product(string prodID, string ProdName, string prodType,  string prodPrice, String prodStatus, String prodImg)
         {
-            p = new DAL_product(prodID, ProdName, prodType, prodStock, prodPrice, prodStatus, prodImg);
+            p = new DAL_product(prodID, ProdName, prodType,  prodPrice, prodStatus, prodImg);
         }
 
         public void addQuery()
@@ -52,7 +52,15 @@ namespace BUS
             }
         }
 
+        public DataTable FilterProducts(string selectedType, string searchText)
+        {
+            return p.GetFilteredProducts(selectedType, searchText);
+        }
 
+        public DataTable FilterProductsByType(string selectedType)
+        {
+            return p.GetFilteredProductsByType(selectedType);
+        }
 
 
         public string getImagePath(string imageLocation, string prodName)
@@ -73,5 +81,6 @@ namespace BUS
         {
             return p.getProdID_by_prodName(text);
         }
+
     }
 }

@@ -79,7 +79,7 @@ namespace GUI
             string username = tbUsername.Text;
             string password = tbPassword.Text;
             string phonenumber = tbPhonenumber.Text;
-            string status = cbStatus.SelectedIndex != -1 ? cbStatus.SelectedItem.ToString() : "";
+            string status = cbStatus.Text;
             BUS_STAFF b = new BUS_STAFF("", "", "", "", "", "", "");
             string img = "";
             if (userIMG.ImageLocation != null)

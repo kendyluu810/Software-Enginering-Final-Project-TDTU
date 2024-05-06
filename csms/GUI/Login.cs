@@ -26,13 +26,25 @@ namespace GUI
                 MessageBox.Show("All fields are required to be filled.", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
-            {
+            {   
+              
+                
                 // Call Business Logic Layer method for login
                 if (b.Login(tbUser.Text.Trim(), tbPass.Text.Trim()))
-                {
-                    // Successful Login - Show relevant form based on user role
-                    string userRole = b.GetUserRole(tbUser.Text.Trim());
-                    ShowMainForm(userRole, tbUser.Text.Trim());
+                {   // Successful Login - Show relevant form based on user role
+
+                    string accStatus = b.getUserStatus(tbUser.Text);
+                    if(accStatus == "Active")
+                    {
+                        string userRole = b.GetUserRole(tbUser.Text.Trim());
+                        ShowMainForm(userRole, tbUser.Text.Trim());
+                    }
+                    else
+                    {
+                        MessageBox.Show("This account doesn't have authorization to access the program!", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+
                 }
                 else
                 {

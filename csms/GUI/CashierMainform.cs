@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BUS;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,7 +21,7 @@ namespace GUI
             this.username = username;
             InitializeComponent();
             this.username = username;
-            TakeOrder dashboardForm = new TakeOrder(username);
+            takeOrder dashboardForm = new takeOrder(username);
             ShowFormInPanel(dashboardForm);
             displayUser();
         }
@@ -65,8 +66,54 @@ namespace GUI
             }
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_username_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReceipt_Click(object sender, EventArgs e)
+        {
+            receipt m = new receipt();
+            ShowFormInPanel(m);
+
+            receipt mem = m as receipt;
+
+            if (mem != null)
+            {
+                mem.refreshData();
+            }
+        }
+
+        private void btnMem_Click(object sender, EventArgs e)
+        {
+
+            membership m = new membership();
+            ShowFormInPanel(m);
+
+            membership mem = m as membership;
+
+            if (mem != null)
+            {
+                mem.refreshData();
+            }
+        }
+
         private void btnOrder_Click(object sender, EventArgs e)
         {
+            takeOrder dashboardForm = new takeOrder(username);
+            ShowFormInPanel(dashboardForm);
+
+            takeOrder mem = dashboardForm as takeOrder;
+
+            if (mem != null)
+            {
+                mem.refreshData();
+            }
 
         }
     }

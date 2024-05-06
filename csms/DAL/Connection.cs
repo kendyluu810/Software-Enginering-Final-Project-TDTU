@@ -13,10 +13,10 @@ namespace DAL
     {
 
         private static SqlConnection cn;
+
         public static void connect()
         {
-            string s = "initial catalog = aubertcoffee; data source = LAPTOP-J1EBU71C\\SQLEXPRESS; integrated security = true";
-            //string s = "Data Source=KENDYL;Initial Catalog=aubertcoffee;Persist Security Info=True;User ID=sa;Password=Lkendy0911";
+            string s = "Data Source=KENDYL;Initial Catalog=aubertcoffee;Persist Security Info=True;User ID=sa;Password=Lkendy0911";
             cn = new SqlConnection(s);
             cn.Open();
 
@@ -46,11 +46,15 @@ namespace DAL
             return dt;
         }
 
-
-     
-        
-
-       
-
+        public static DataTable selectQuery(string sql, SqlParameter[] parameters)
+        {
+            connect();
+            SqlCommand cmd = new SqlCommand(sql, cn);
+            cmd.Parameters.AddRange(parameters);
+            SqlDataAdapter dataAdapter = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            dataAdapter.Fill(dt);
+            return dt;
+        }
     }
 }

@@ -70,5 +70,15 @@ namespace BUS
         {
            return s.getStaffid(username);
         }
+
+        public int getTotalStaff()
+        {
+            return s.getTotalStaff();
+        }
+
+        public DataTable GetStaffIds()
+        {
+            return s.GetStaffIds();
+        }
     }
 }

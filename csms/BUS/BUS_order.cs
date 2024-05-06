@@ -33,6 +33,10 @@ namespace BUS
         {
             p.deleteQuery();
         }
+        public void deleteQueryAll()
+        {
+            p.deleteQueryAll();
+        }
 
         public DataTable selectQuery()
         {
