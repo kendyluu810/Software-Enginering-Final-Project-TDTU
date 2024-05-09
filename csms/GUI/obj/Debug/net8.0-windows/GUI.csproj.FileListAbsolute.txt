@@ -84,3 +84,47 @@ C:\Users\kendy\OneDrive\Máy tính\final\final\csms\GUI\obj\Debug\net8.0-windows
 C:\Users\kendy\OneDrive\Máy tính\final\final\csms\GUI\obj\Debug\net8.0-windows\GUI.pdb
 C:\Users\kendy\OneDrive\Máy tính\final\final\csms\GUI\obj\Debug\net8.0-windows\GUI.genruntimeconfig.cache
 C:\Users\kendy\OneDrive\Máy tính\final\final\csms\GUI\obj\Debug\net8.0-windows\ref\GUI.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\GUI.exe
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\GUI.deps.json
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\GUI.runtimeconfig.json
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\GUI.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\GUI.pdb
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\BouncyCastle.Crypto.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\itextsharp.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\BUS.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\DAL.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\DTO.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\BUS.pdb
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\DAL.pdb
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\bin\Debug\net8.0-windows\DTO.pdb
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.csproj.AssemblyReference.cache
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.CashierMainform.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.coupon.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.dashboard.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.Login.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.MainForm.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.membership.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.productManagement.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.Properties.Resources.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.receipt.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.SignUp.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.staffManagement.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.takeOrder.resources
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.csproj.GenerateResource.cache
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfoInputs.cache
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfo.cs
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.csproj.CoreCompileInputs.cache
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.sourcelink.json
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.csproj.CopyComplete
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\refint\GUI.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.pdb
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.genruntimeconfig.cache
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\ref\GUI.dll

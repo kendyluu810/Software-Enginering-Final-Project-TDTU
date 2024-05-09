@@ -28,3 +28,19 @@ C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\obj\Debug\net8.0\DAL.dll
 C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\obj\Debug\net8.0\refint\DAL.dll
 C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\obj\Debug\net8.0\DAL.pdb
 C:\Users\kendy\OneDrive\Máy tính\final\final\csms\DAL\obj\Debug\net8.0\ref\DAL.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\bin\Debug\net8.0\DAL.deps.json
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\bin\Debug\net8.0\DAL.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\bin\Debug\net8.0\DAL.pdb
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\bin\Debug\net8.0\DTO.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\bin\Debug\net8.0\DTO.pdb
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.csproj.CopyComplete
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\refint\DAL.dll
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\DAL.pdb
+E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DAL\obj\Debug\net8.0\ref\DAL.dll

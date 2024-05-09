@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vPsxvyiHnlfDTTg884SwzAibmz7zLgxoo9u3zh54vx7fW0ci44YfzyRNVLsfWEX35P7MWF7Nl+P834omvcYmgQ==",
+  "dgSpecHash": "DOowlX3FlpmTM9di92hzPeSg4PRouPZFvVotlcR9XnfMkqPYYApXfCqXnoXZaFqCLbm551dUMrJb7Rg/EliGrg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kendy\\OneDrive\\Máy tính\\final\\final\\csms\\BUS\\BUS.csproj",
+  "projectFilePath": "E:\\SE HK2 2023-2024\\Software-Enginering-Final-Project-TDTU\\csms\\BUS\\BUS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kendy\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\kendy\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

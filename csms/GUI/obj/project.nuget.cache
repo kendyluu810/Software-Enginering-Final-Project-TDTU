@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WaJLyi7z6WrB3h1kFfDdeVWaSAfr1cucd3wnFX1PnL9eI2kMOBC8qkoSb7CTA4aBDGep+vB2hkkGGE+v8kThCg==",
+  "dgSpecHash": "DfK81tXP1pXyJ8n8j6Pi4uMShDIVkUddjOkas/slfOUq8W0Qv7ZJJuZmJAU8fvP3kVqIwsFzrHgEOdgptiY8bA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kendy\\OneDrive\\Máy tính\\final\\final\\csms\\GUI\\GUI.csproj",
+  "projectFilePath": "E:\\SE HK2 2023-2024\\Software-Enginering-Final-Project-TDTU\\csms\\GUI\\GUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kendy\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\kendy\\.nuget\\packages\\itextsharp\\5.5.13.3\\itextsharp.5.5.13.3.nupkg.sha512",

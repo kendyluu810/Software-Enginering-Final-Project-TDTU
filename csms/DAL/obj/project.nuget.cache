@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ehVABq5u6kSt+YaADqK31rY+FQ1eg36bqW4/2oi1MMCaqy5/OmN6/x1PXiHmFNF8kQ0r/7m0z6SpH0UU6TxLtA==",
+  "dgSpecHash": "33MBmzQQ2UAhwLA1qcHKO922SEPcRDOnlmPx8qxFgDConPOowfYGkWl01vTk/qD3ia6kH0UGkR8ZnA5BFPsT7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kendy\\OneDrive\\Máy tính\\final\\final\\csms\\DAL\\DAL.csproj",
+  "projectFilePath": "E:\\SE HK2 2023-2024\\Software-Enginering-Final-Project-TDTU\\csms\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kendy\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\kendy\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
