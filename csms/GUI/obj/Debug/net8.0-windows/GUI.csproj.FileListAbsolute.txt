@@ -128,3 +128,89 @@ E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\ne
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.pdb
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\GUI.genruntimeconfig.cache
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\GUI\obj\Debug\net8.0-windows\ref\GUI.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.csproj.AssemblyReference.cache
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\refint\GUI.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.pdb
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\GUI.exe
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\GUI.deps.json
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\GUI.runtimeconfig.json
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\GUI.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\GUI.pdb
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\BouncyCastle.Crypto.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\itextsharp.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\BUS.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\DAL.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\DTO.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\BUS.pdb
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\DAL.pdb
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\bin\Debug\net8.0-windows\DTO.pdb
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.CashierMainform.resources
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.coupon.resources
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.dashboard.resources
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.Login.resources
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.MainForm.resources
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.membership.resources
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.productManagement.resources
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.Properties.Resources.resources
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.receipt.resources
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.SignUp.resources
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.staffManagement.resources
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.takeOrder.resources
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.csproj.GenerateResource.cache
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfoInputs.cache
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfo.cs
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.csproj.CoreCompileInputs.cache
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.csproj.CopyComplete
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\GUI.genruntimeconfig.cache
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\GUI\obj\Debug\net8.0-windows\ref\GUI.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\GUI.exe
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\GUI.deps.json
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\GUI.runtimeconfig.json
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\GUI.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\GUI.pdb
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\BouncyCastle.Crypto.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\itextsharp.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\BUS.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\DAL.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\DTO.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\BUS.pdb
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\DAL.pdb
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\bin\Debug\net8.0-windows\DTO.pdb
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.csproj.AssemblyReference.cache
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.CashierMainform.resources
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.coupon.resources
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.dashboard.resources
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.Login.resources
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.MainForm.resources
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.membership.resources
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.productManagement.resources
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.Properties.Resources.resources
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.receipt.resources
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.SignUp.resources
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.staffManagement.resources
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.takeOrder.resources
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.csproj.GenerateResource.cache
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfoInputs.cache
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfo.cs
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.csproj.CoreCompileInputs.cache
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.csproj.CopyComplete
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\refint\GUI.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.pdb
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\GUI.genruntimeconfig.cache
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\GUI\obj\Debug\net8.0-windows\ref\GUI.dll

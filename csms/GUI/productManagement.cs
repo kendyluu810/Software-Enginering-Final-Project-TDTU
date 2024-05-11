@@ -75,7 +75,7 @@ namespace GUI
             cbStatus.Text = grd.CurrentRow.Cells[4].Value.ToString();
             ProdIMG.Enabled = false;
             //--img
-            string imagePath = grd.CurrentRow.Cells[6].Value.ToString();
+            string imagePath = grd.CurrentRow.Cells[5].Value.ToString();
             if (imagePath != "")
             {
                 ProdIMG.Image = System.Drawing.Image.FromFile(imagePath);
@@ -141,7 +141,7 @@ namespace GUI
             if (ProdIMG.ImageLocation != null)
             {
 
-                img = b.getImagePath(ProdIMG.ImageLocation, ProdIMG.Name);
+                img = b.getImagePath(ProdIMG.ImageLocation, prodname);
 
             }
 
@@ -201,7 +201,7 @@ namespace GUI
             dk = 2;
 
             enable(gbProd, true);
-            ProdIMG.Enabled = false;
+            ProdIMG.Enabled = true;
             btnSave.Enabled = true;
             tbProdID.Enabled = false;
             btnEdit.Enabled = false;

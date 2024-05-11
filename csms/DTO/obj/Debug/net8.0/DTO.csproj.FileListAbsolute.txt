@@ -32,3 +32,25 @@ E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DTO\obj\Debug\ne
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DTO\obj\Debug\net8.0\refint\DTO.dll
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DTO\obj\Debug\net8.0\DTO.pdb
 E:\SE HK2 2023-2024\Software-Enginering-Final-Project-TDTU\csms\DTO\obj\Debug\net8.0\ref\DTO.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\DTO\bin\Debug\net8.0\DTO.deps.json
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\DTO\bin\Debug\net8.0\DTO.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\DTO\bin\Debug\net8.0\DTO.pdb
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\DTO\obj\Debug\net8.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\DTO\obj\Debug\net8.0\DTO.AssemblyInfoInputs.cache
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\DTO\obj\Debug\net8.0\DTO.AssemblyInfo.cs
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\DTO\obj\Debug\net8.0\DTO.csproj.CoreCompileInputs.cache
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\DTO\obj\Debug\net8.0\DTO.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\DTO\obj\Debug\net8.0\refint\DTO.dll
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\DTO\obj\Debug\net8.0\DTO.pdb
+D:\Ton Duc Thang university\4th semester\Software Engineering\Software-Enginering-Final-Project-TDTU-main (2)\Software-Enginering-Final-Project-TDTU-main\csms\DTO\obj\Debug\net8.0\ref\DTO.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\DTO\bin\Debug\net8.0\DTO.deps.json
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\DTO\bin\Debug\net8.0\DTO.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\DTO\bin\Debug\net8.0\DTO.pdb
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\DTO\obj\Debug\net8.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\DTO\obj\Debug\net8.0\DTO.AssemblyInfoInputs.cache
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\DTO\obj\Debug\net8.0\DTO.AssemblyInfo.cs
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\DTO\obj\Debug\net8.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\DTO\obj\Debug\net8.0\DTO.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\DTO\obj\Debug\net8.0\refint\DTO.dll
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\DTO\obj\Debug\net8.0\DTO.pdb
+C:\Users\kendy\OneDrive\Máy tính\csms\csms\DTO\obj\Debug\net8.0\ref\DTO.dll
